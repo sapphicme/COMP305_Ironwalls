@@ -4,20 +4,64 @@ using UnityEngine;
 
 public class ScrollScript : MonoBehaviour
 {
+    // public variables
+    public float speed;
+    //gameobjects 
+    public GameObject stopCol;
+    public GameObject slowCol;
+    //audio sources 
+    public AudioSource audioSource;
+    public AudioClip trainHorn;
 
-    float scrollSpeed = -6f;
-    Vector2 startPos;
+    public AudioSource audioTwo;
+    public AudioClip trainTrack;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        startPos = transform.position;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        float newPos = Mathf.Repeat(Time.time * scrollSpeed, 35);
-        transform.position = startPos + Vector2.up * newPos;
+        // to move the train up 
+        transform.Translate(Vector3.up * Time.deltaTime * speed);
+
+        // to play train horn
+
+        if (Input.GetKey(KeyCode.H))
+        {
+            //play sound while object is rotated
+            audioSource.clip = trainHorn;
+            audioSource.Play();
+            Debug.Log("Play sound");
+        }
+
+
     }
+
+    // to detect collision with trigger to slow down the train before the station
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject == slowCol)
+        {
+            // to begin slowing the train down before it stops
+            speed += -2;
+            Debug.Log("I am slowing down!");
+            audioTwo.volume = 0.25f;
+            Debug.Log("volume fade");
+        }
+
+        if(other.gameObject == stopCol)
+        {
+            //to stop the trains movement
+            speed = 0;
+            Debug.Log("I have stopped");
+            audioTwo.volume = 0.0f;
+            Debug.Log("volume off");
+        }
+    }
+
 }
