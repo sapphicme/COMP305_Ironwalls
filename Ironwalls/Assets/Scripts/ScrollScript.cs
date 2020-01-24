@@ -9,6 +9,7 @@ public class ScrollScript : MonoBehaviour
     //gameobjects 
     public GameObject stopCol;
     public GameObject slowCol;
+    public GameObject slowColTwo;
     //audio sources 
     public AudioSource audioSource;
     public AudioClip trainHorn;
@@ -48,13 +49,22 @@ public class ScrollScript : MonoBehaviour
         if (other.gameObject == slowCol)
         {
             // to begin slowing the train down before it stops
-            speed += -2;
+            speed = 6;
             Debug.Log("I am slowing down!");
             audioTwo.volume = 0.25f;
             Debug.Log("volume fade");
         }
 
-        if(other.gameObject == stopCol)
+        if (other.gameObject == slowColTwo)
+        {
+            // to begin slowing the train down before it stops
+            speed = 4;
+            Debug.Log("I am slowing down!");
+            audioTwo.volume = 0.10f;
+            Debug.Log("volume fade");
+        }
+
+        if (other.gameObject == stopCol)
         {
             //to stop the trains movement
             speed = 0;
