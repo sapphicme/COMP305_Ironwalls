@@ -10,6 +10,7 @@ public class ScrollScript : MonoBehaviour
     public GameObject stopCol;
     public GameObject slowCol;
     public GameObject slowColTwo;
+    public GameObject trainCol;
     //audio sources 
     public AudioSource audioSource;
     public AudioClip trainHorn;
@@ -71,6 +72,7 @@ public class ScrollScript : MonoBehaviour
             Debug.Log("I have stopped");
             audioTwo.volume = 0.0f;
             Debug.Log("volume off");
+            trainCol.SetActive(false);
         }
     }
 
