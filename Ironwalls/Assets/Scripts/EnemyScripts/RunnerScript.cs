@@ -5,7 +5,7 @@ using UnityEngine;
 public class RunnerScript : MonoBehaviour
 {
     public Transform player;
-    public float moveSpeed = 13f;
+    public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
 

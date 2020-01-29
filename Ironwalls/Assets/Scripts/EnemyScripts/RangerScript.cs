@@ -8,10 +8,12 @@ public class RangerScript : MonoBehaviour
     public float speed;
     public float stoppingDistance;
     public float retreatDistance;
+    private Rigidbody2D rb;
     public Transform player;
 
     void Start()
     {
+        rb = this.GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
@@ -20,7 +22,7 @@ public class RangerScript : MonoBehaviour
     {
         Vector3 direction = player.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-    //    rb.rotation = angle;
+        rb.rotation = angle;
 
         if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
         {
