@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 564926997748628605}
   - component: {fileID: 564926997748628604}
   - component: {fileID: 564926997748628607}
+  - component: {fileID: 2530724875334542164}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -123,6 +124,22 @@ MonoBehaviour:
   firePoint: {fileID: 564926998573793010}
   bulletToFire: {fileID: 5921043708207602491, guid: 5ffb43d4bdad78f4ca325ce50c41f7f8,
     type: 3}
+--- !u!70 &2530724875334542164
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564926997748628606}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.04985407, y: -0.0071189404}
+  m_Size: {x: 0.77529186, y: 1.4517379}
+  m_Direction: 0
 --- !u!1 &564926998573793005
 GameObject:
   m_ObjectHideFlags: 0

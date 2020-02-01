@@ -1,7 +1,1159 @@
 fileFormatVersion: 2
 guid: da4619fdccc21ad4bb000d149ec9cbe9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -50690746187396228
+    second: a2-tiles-with-overlays_2_0
+  - first:
+      213: -3612572347350491069
+    second: a2-tiles-with-overlays_2_1
+  - first:
+      213: -9156299541488953347
+    second: a2-tiles-with-overlays_2_2
+  - first:
+      213: 5212548913428984185
+    second: a2-tiles-with-overlays_2_3
+  - first:
+      213: 3870307855316072388
+    second: a2-tiles-with-overlays_2_4
+  - first:
+      213: 1505198058203624441
+    second: a2-tiles-with-overlays_2_5
+  - first:
+      213: -8925382778358533540
+    second: a2-tiles-with-overlays_2_6
+  - first:
+      213: -7301520587505176015
+    second: a2-tiles-with-overlays_2_7
+  - first:
+      213: 962935617690437951
+    second: a2-tiles-with-overlays_2_8
+  - first:
+      213: -7401702767720722466
+    second: a2-tiles-with-overlays_2_9
+  - first:
+      213: -5405395884648542723
+    second: a2-tiles-with-overlays_2_10
+  - first:
+      213: 3944229820975109465
+    second: a2-tiles-with-overlays_2_11
+  - first:
+      213: -4229233144977121106
+    second: a2-tiles-with-overlays_2_12
+  - first:
+      213: -3939782388237526691
+    second: a2-tiles-with-overlays_2_13
+  - first:
+      213: 7779075534386961280
+    second: a2-tiles-with-overlays_2_14
+  - first:
+      213: -8269589580485768916
+    second: a2-tiles-with-overlays_2_15
+  - first:
+      213: -4451314381443565196
+    second: a2-tiles-with-overlays_2_16
+  - first:
+      213: -4519609786873769341
+    second: a2-tiles-with-overlays_2_17
+  - first:
+      213: 619848578639610091
+    second: a2-tiles-with-overlays_2_18
+  - first:
+      213: 8744982440654080084
+    second: a2-tiles-with-overlays_2_19
+  - first:
+      213: 6314303278232392249
+    second: a2-tiles-with-overlays_2_20
+  - first:
+      213: -5583395655713578734
+    second: a2-tiles-with-overlays_2_21
+  - first:
+      213: 264591477941063765
+    second: a2-tiles-with-overlays_2_22
+  - first:
+      213: 1625364945518344780
+    second: a2-tiles-with-overlays_2_23
+  - first:
+      213: -6002014087749500211
+    second: a2-tiles-with-overlays_2_24
+  - first:
+      213: 5201257772419436181
+    second: a2-tiles-with-overlays_2_25
+  - first:
+      213: -8236363510788509984
+    second: a2-tiles-with-overlays_2_26
+  - first:
+      213: 1736215506922801761
+    second: a2-tiles-with-overlays_2_27
+  - first:
+      213: 8726886830632813963
+    second: a2-tiles-with-overlays_2_28
+  - first:
+      213: -7866932266987420992
+    second: a2-tiles-with-overlays_2_29
+  - first:
+      213: -1741728391536152326
+    second: a2-tiles-with-overlays_2_30
+  - first:
+      213: 1145119509504942316
+    second: a2-tiles-with-overlays_2_31
+  - first:
+      213: -9009509948461125300
+    second: a2-tiles-with-overlays_2_32
+  - first:
+      213: 5420059360014769430
+    second: a2-tiles-with-overlays_2_33
+  - first:
+      213: -6905889476251801471
+    second: a2-tiles-with-overlays_2_34
+  - first:
+      213: -8447410234836053515
+    second: a2-tiles-with-overlays_2_35
+  - first:
+      213: 9175706542413218043
+    second: a2-tiles-with-overlays_2_36
+  - first:
+      213: 4504261606041313728
+    second: a2-tiles-with-overlays_2_37
+  - first:
+      213: 8418281773353127962
+    second: a2-tiles-with-overlays_2_38
+  - first:
+      213: 7188440663952655640
+    second: a2-tiles-with-overlays_2_39
+  - first:
+      213: 5482181004854517913
+    second: a2-tiles-with-overlays_2_40
+  - first:
+      213: -8688107788456403019
+    second: a2-tiles-with-overlays_2_41
+  - first:
+      213: 7183053728000027496
+    second: a2-tiles-with-overlays_2_42
+  - first:
+      213: 4943100717286117150
+    second: a2-tiles-with-overlays_2_43
+  - first:
+      213: -8692656992915588803
+    second: a2-tiles-with-overlays_2_44
+  - first:
+      213: 2797676285454051183
+    second: a2-tiles-with-overlays_2_45
+  - first:
+      213: 1194355355307639421
+    second: a2-tiles-with-overlays_2_46
+  - first:
+      213: -4086471440214305461
+    second: a2-tiles-with-overlays_2_47
+  - first:
+      213: -4292242773280954073
+    second: a2-tiles-with-overlays_2_48
+  - first:
+      213: -74778451108633226
+    second: a2-tiles-with-overlays_2_0
+  - first:
+      213: -7914224934010495941
+    second: a2-tiles-with-overlays_2_1
+  - first:
+      213: 238172410577854464
+    second: a2-tiles-with-overlays_2_2
+  - first:
+      213: -6583284288212312646
+    second: a2-tiles-with-overlays_2_3
+  - first:
+      213: 8979940070709364440
+    second: a2-tiles-with-overlays_2_4
+  - first:
+      213: -7881274073568643161
+    second: a2-tiles-with-overlays_2_5
+  - first:
+      213: -3415605285813074772
+    second: a2-tiles-with-overlays_2_6
+  - first:
+      213: -1243785776070272559
+    second: a2-tiles-with-overlays_2_7
+  - first:
+      213: 4933037574851946018
+    second: a2-tiles-with-overlays_2_8
+  - first:
+      213: -4888478743515400666
+    second: a2-tiles-with-overlays_2_9
+  - first:
+      213: -2011677007793467093
+    second: a2-tiles-with-overlays_2_10
+  - first:
+      213: 8062782051513378977
+    second: a2-tiles-with-overlays_2_11
+  - first:
+      213: -5187689059160274951
+    second: a2-tiles-with-overlays_2_12
+  - first:
+      213: 8388679835754792814
+    second: a2-tiles-with-overlays_2_13
+  - first:
+      213: -724024307344768756
+    second: a2-tiles-with-overlays_2_14
+  - first:
+      213: 793481129036111069
+    second: a2-tiles-with-overlays_2_15
+  - first:
+      213: -5305720803968923955
+    second: a2-tiles-with-overlays_2_16
+  - first:
+      213: 991749667371484280
+    second: a2-tiles-with-overlays_2_17
+  - first:
+      213: 4729874276713745058
+    second: a2-tiles-with-overlays_2_18
+  - first:
+      213: 3520233417156192674
+    second: a2-tiles-with-overlays_2_19
+  - first:
+      213: 918937929261695231
+    second: a2-tiles-with-overlays_2_20
+  - first:
+      213: 8164738044012439968
+    second: a2-tiles-with-overlays_2_21
+  - first:
+      213: 8746338824686398006
+    second: a2-tiles-with-overlays_2_22
+  - first:
+      213: 1386982029086461562
+    second: a2-tiles-with-overlays_2_23
+  - first:
+      213: -6214885887622081139
+    second: a2-tiles-with-overlays_2_24
+  - first:
+      213: -1156459740998561832
+    second: a2-tiles-with-overlays_2_25
+  - first:
+      213: 1781411520259776094
+    second: a2-tiles-with-overlays_2_26
+  - first:
+      213: -6530887657246263843
+    second: a2-tiles-with-overlays_2_27
+  - first:
+      213: -3092742110249413071
+    second: a2-tiles-with-overlays_2_28
+  - first:
+      213: 697099142930596599
+    second: a2-tiles-with-overlays_2_29
+  - first:
+      213: 8213447572732422286
+    second: a2-tiles-with-overlays_2_30
+  - first:
+      213: -6442089018855896320
+    second: a2-tiles-with-overlays_2_31
+  - first:
+      213: -5299361899282817301
+    second: a2-tiles-with-overlays_2_49
+  - first:
+      213: 7124294376415314694
+    second: a2-tiles-with-overlays_2_50
+  - first:
+      213: -3464958998681913242
+    second: a2-tiles-with-overlays_2_51
+  - first:
+      213: 1628089388658271956
+    second: a2-tiles-with-overlays_2_52
+  - first:
+      213: 4561597837298869781
+    second: a2-tiles-with-overlays_2_53
+  - first:
+      213: -4633763131569526181
+    second: a2-tiles-with-overlays_2_54
+  - first:
+      213: 37010408457486534
+    second: a2-tiles-with-overlays_2_55
+  - first:
+      213: 6133957948635639782
+    second: a2-tiles-with-overlays_2_56
+  - first:
+      213: -7597566368633727109
+    second: a2-tiles-with-overlays_2_57
+  - first:
+      213: -7222534842014012880
+    second: a2-tiles-with-overlays_2_58
+  - first:
+      213: -8325696614324121630
+    second: a2-tiles-with-overlays_2_59
+  - first:
+      213: -5416618236076226415
+    second: a2-tiles-with-overlays_2_60
+  - first:
+      213: -5605500115375422368
+    second: a2-tiles-with-overlays_2_61
+  - first:
+      213: 813609956588208254
+    second: a2-tiles-with-overlays_2_62
+  - first:
+      213: -9088562489190189614
+    second: a2-tiles-with-overlays_2_63
+  - first:
+      213: 3356150456786917553
+    second: a2-tiles-with-overlays_2_64
+  - first:
+      213: 1842078737142092046
+    second: a2-tiles-with-overlays_2_65
+  - first:
+      213: 1074896564243281770
+    second: a2-tiles-with-overlays_2_66
+  - first:
+      213: 8177082410854587408
+    second: a2-tiles-with-overlays_2_67
+  - first:
+      213: -3719721426478354810
+    second: a2-tiles-with-overlays_2_68
+  - first:
+      213: -8805269562418096945
+    second: a2-tiles-with-overlays_2_69
+  - first:
+      213: -4442528122937191400
+    second: a2-tiles-with-overlays_2_70
+  - first:
+      213: -1962065361438387677
+    second: a2-tiles-with-overlays_2_71
+  - first:
+      213: 251859155199115172
+    second: a2-tiles-with-overlays_2_72
+  - first:
+      213: -8026383943503496281
+    second: a2-tiles-with-overlays_2_73
+  - first:
+      213: 2321350526504086567
+    second: a2-tiles-with-overlays_2_74
+  - first:
+      213: -1660395548182594061
+    second: a2-tiles-with-overlays_2_75
+  - first:
+      213: 8824971834940931801
+    second: a2-tiles-with-overlays_2_76
+  - first:
+      213: -2568369787228685234
+    second: a2-tiles-with-overlays_2_77
+  - first:
+      213: -5097288088323582145
+    second: a2-tiles-with-overlays_2_78
+  - first:
+      213: -3741175458855151345
+    second: a2-tiles-with-overlays_2_79
+  - first:
+      213: 9076410019279862333
+    second: a2-tiles-with-overlays_2_80
+  - first:
+      213: -484414671635842703
+    second: a2-tiles-with-overlays_2_81
+  - first:
+      213: -5224062641941044227
+    second: a2-tiles-with-overlays_2_82
+  - first:
+      213: -8274822685664630010
+    second: a2-tiles-with-overlays_2_83
+  - first:
+      213: 8338255851153857841
+    second: a2-tiles-with-overlays_2_84
+  - first:
+      213: 1226717780325574909
+    second: a2-tiles-with-overlays_2_85
+  - first:
+      213: -8222896329217014568
+    second: a2-tiles-with-overlays_2_86
+  - first:
+      213: -2332725564735308182
+    second: a2-tiles-with-overlays_2_87
+  - first:
+      213: -2638375551481027125
+    second: a2-tiles-with-overlays_2_88
+  - first:
+      213: -8110875923843731259
+    second: a2-tiles-with-overlays_2_89
+  - first:
+      213: 1729518058675680116
+    second: a2-tiles-with-overlays_2_90
+  - first:
+      213: 8145836559612507931
+    second: a2-tiles-with-overlays_2_91
+  - first:
+      213: 8292487094566930488
+    second: a2-tiles-with-overlays_2_92
+  - first:
+      213: -3909036643739406306
+    second: a2-tiles-with-overlays_2_93
+  - first:
+      213: -5771821985119957843
+    second: a2-tiles-with-overlays_2_94
+  - first:
+      213: 5990883610186443749
+    second: a2-tiles-with-overlays_2_95
+  - first:
+      213: -8706248276628972547
+    second: a2-tiles-with-overlays_2_96
+  - first:
+      213: -429155160047357238
+    second: a2-tiles-with-overlays_2_97
+  - first:
+      213: -1326197446318331311
+    second: a2-tiles-with-overlays_2_98
+  - first:
+      213: -5603381613369554089
+    second: a2-tiles-with-overlays_2_99
+  - first:
+      213: 9063975941096792056
+    second: a2-tiles-with-overlays_2_100
+  - first:
+      213: -6574112798611923089
+    second: a2-tiles-with-overlays_2_101
+  - first:
+      213: -1581976011083650035
+    second: a2-tiles-with-overlays_2_102
+  - first:
+      213: 833284653222900765
+    second: a2-tiles-with-overlays_2_103
+  - first:
+      213: -2461080556236663646
+    second: a2-tiles-with-overlays_2_104
+  - first:
+      213: 1428249669729868915
+    second: a2-tiles-with-overlays_2_105
+  - first:
+      213: -6693812076836995037
+    second: a2-tiles-with-overlays_2_106
+  - first:
+      213: 5086593038854870597
+    second: a2-tiles-with-overlays_2_107
+  - first:
+      213: -1506290453541660447
+    second: a2-tiles-with-overlays_2_108
+  - first:
+      213: 7445134038330363948
+    second: a2-tiles-with-overlays_2_109
+  - first:
+      213: 7769370748275791535
+    second: a2-tiles-with-overlays_2_110
+  - first:
+      213: 6986505197771795254
+    second: a2-tiles-with-overlays_2_111
+  - first:
+      213: 7681591988538025178
+    second: a2-tiles-with-overlays_2_112
+  - first:
+      213: -2883228948127470261
+    second: a2-tiles-with-overlays_2_113
+  - first:
+      213: -587079240669596573
+    second: a2-tiles-with-overlays_2_114
+  - first:
+      213: -3376710527809000652
+    second: a2-tiles-with-overlays_2_115
+  - first:
+      213: -3763093168260326665
+    second: a2-tiles-with-overlays_2_116
+  - first:
+      213: 6408123693086533153
+    second: a2-tiles-with-overlays_2_117
+  - first:
+      213: 4586846031904746625
+    second: a2-tiles-with-overlays_2_118
+  - first:
+      213: 3555019462213832711
+    second: a2-tiles-with-overlays_2_119
+  - first:
+      213: -7962734873662585398
+    second: a2-tiles-with-overlays_2_120
+  - first:
+      213: 8234581416903082238
+    second: a2-tiles-with-overlays_2_121
+  - first:
+      213: -2982968876748315890
+    second: a2-tiles-with-overlays_2_122
+  - first:
+      213: 7017206806107183167
+    second: a2-tiles-with-overlays_2_123
+  - first:
+      213: -8751942754250814672
+    second: a2-tiles-with-overlays_2_124
+  - first:
+      213: 696829679034630833
+    second: a2-tiles-with-overlays_2_125
+  - first:
+      213: 1270276243439878428
+    second: a2-tiles-with-overlays_2_126
+  - first:
+      213: 8372539776852150223
+    second: a2-tiles-with-overlays_2_127
+  - first:
+      213: -809740260915916410
+    second: a2-tiles-with-overlays_2_128
+  - first:
+      213: -1374863024823681615
+    second: a2-tiles-with-overlays_2_129
+  - first:
+      213: 7943266155769572418
+    second: a2-tiles-with-overlays_2_130
+  - first:
+      213: -8090408782778399612
+    second: a2-tiles-with-overlays_2_131
+  - first:
+      213: 2324866258762062201
+    second: a2-tiles-with-overlays_2_132
+  - first:
+      213: 5492407200243132805
+    second: a2-tiles-with-overlays_2_133
+  - first:
+      213: 4875746523966056551
+    second: a2-tiles-with-overlays_2_134
+  - first:
+      213: -1129155556530369269
+    second: a2-tiles-with-overlays_2_135
+  - first:
+      213: -3011643679046458467
+    second: a2-tiles-with-overlays_2_136
+  - first:
+      213: -5637600966862106021
+    second: a2-tiles-with-overlays_2_137
+  - first:
+      213: 6646566274099935451
+    second: a2-tiles-with-overlays_2_138
+  - first:
+      213: 472506469519482172
+    second: a2-tiles-with-overlays_2_139
+  - first:
+      213: -4033674634575697860
+    second: a2-tiles-with-overlays_2_140
+  - first:
+      213: 4651551917726681605
+    second: a2-tiles-with-overlays_2_141
+  - first:
+      213: -1922201873387165328
+    second: a2-tiles-with-overlays_2_142
+  - first:
+      213: 8815153174026202534
+    second: a2-tiles-with-overlays_2_143
+  - first:
+      213: -278241328675978842
+    second: a2-tiles-with-overlays_2_144
+  - first:
+      213: -2301413701410251858
+    second: a2-tiles-with-overlays_2_145
+  - first:
+      213: 8214118754565042411
+    second: a2-tiles-with-overlays_2_146
+  - first:
+      213: -6929365978608373139
+    second: a2-tiles-with-overlays_2_147
+  - first:
+      213: 5460997714966269956
+    second: a2-tiles-with-overlays_2_148
+  - first:
+      213: 6311611348386281771
+    second: a2-tiles-with-overlays_2_149
+  - first:
+      213: -6180921017286704282
+    second: a2-tiles-with-overlays_2_150
+  - first:
+      213: 3731119321502886878
+    second: a2-tiles-with-overlays_2_151
+  - first:
+      213: 3446923579008641790
+    second: a2-tiles-with-overlays_2_152
+  - first:
+      213: -8221868035441721465
+    second: a2-tiles-with-overlays_2_153
+  - first:
+      213: -4675569505848015713
+    second: a2-tiles-with-overlays_2_154
+  - first:
+      213: -2033081608136934465
+    second: a2-tiles-with-overlays_2_155
+  - first:
+      213: -8295025806774725605
+    second: a2-tiles-with-overlays_2_156
+  - first:
+      213: 1626169975727818031
+    second: a2-tiles-with-overlays_2_157
+  - first:
+      213: -5829454250673648283
+    second: a2-tiles-with-overlays_2_158
+  - first:
+      213: -4186031089944306535
+    second: a2-tiles-with-overlays_2_159
+  - first:
+      213: 5389748415049994974
+    second: a2-tiles-with-overlays_2_160
+  - first:
+      213: -4379198908008824700
+    second: a2-tiles-with-overlays_2_161
+  - first:
+      213: -3264944297282005832
+    second: a2-tiles-with-overlays_2_162
+  - first:
+      213: -7698145064876668277
+    second: a2-tiles-with-overlays_2_163
+  - first:
+      213: 998228518737910865
+    second: a2-tiles-with-overlays_2_164
+  - first:
+      213: 407719675726036867
+    second: a2-tiles-with-overlays_2_165
+  - first:
+      213: 2470416608035272527
+    second: a2-tiles-with-overlays_2_166
+  - first:
+      213: 8902543098660153818
+    second: a2-tiles-with-overlays_2_167
+  - first:
+      213: 2772033985116149970
+    second: a2-tiles-with-overlays_2_168
+  - first:
+      213: -3504293236966121233
+    second: a2-tiles-with-overlays_2_169
+  - first:
+      213: -7111440204134043500
+    second: a2-tiles-with-overlays_2_170
+  - first:
+      213: 6695863210440516974
+    second: a2-tiles-with-overlays_2_171
+  - first:
+      213: 4951812256213246227
+    second: a2-tiles-with-overlays_2_172
+  - first:
+      213: -4260413394432252706
+    second: a2-tiles-with-overlays_2_173
+  - first:
+      213: -1228051724958243121
+    second: a2-tiles-with-overlays_2_174
+  - first:
+      213: 5757198131027411815
+    second: a2-tiles-with-overlays_2_175
+  - first:
+      213: -4742724956744653307
+    second: a2-tiles-with-overlays_2_176
+  - first:
+      213: -3983421174863470929
+    second: a2-tiles-with-overlays_2_177
+  - first:
+      213: -7735888379305583825
+    second: a2-tiles-with-overlays_2_178
+  - first:
+      213: 6055826539405723826
+    second: a2-tiles-with-overlays_2_179
+  - first:
+      213: -4322744176869042197
+    second: a2-tiles-with-overlays_2_180
+  - first:
+      213: -468990180786938766
+    second: a2-tiles-with-overlays_2_181
+  - first:
+      213: -1894251359410173694
+    second: a2-tiles-with-overlays_2_182
+  - first:
+      213: -3599640969262017827
+    second: a2-tiles-with-overlays_2_183
+  - first:
+      213: 8797946013693409571
+    second: a2-tiles-with-overlays_2_184
+  - first:
+      213: -8852722551967265654
+    second: a2-tiles-with-overlays_2_185
+  - first:
+      213: -2869561876193630524
+    second: a2-tiles-with-overlays_2_186
+  - first:
+      213: -1594881053540548105
+    second: a2-tiles-with-overlays_2_187
+  - first:
+      213: 6466057388133266213
+    second: a2-tiles-with-overlays_2_188
+  - first:
+      213: 7655396577033199451
+    second: a2-tiles-with-overlays_2_189
+  - first:
+      213: -2712151400888965702
+    second: a2-tiles-with-overlays_2_190
+  - first:
+      213: 1750689943096401101
+    second: a2-tiles-with-overlays_2_191
+  - first:
+      213: 4025884039274008044
+    second: a2-tiles-with-overlays_2_32
+  - first:
+      213: 5739767592317629750
+    second: a2-tiles-with-overlays_2_33
+  - first:
+      213: 3041129384920869789
+    second: a2-tiles-with-overlays_2_34
+  - first:
+      213: 3837955392411212847
+    second: a2-tiles-with-overlays_2_35
+  - first:
+      213: -4965613464297468800
+    second: a2-tiles-with-overlays_2_36
+  - first:
+      213: 3009364240286048036
+    second: a2-tiles-with-overlays_2_37
+  - first:
+      213: 4453722756866828482
+    second: a2-tiles-with-overlays_2_38
+  - first:
+      213: 1857304755059705338
+    second: a2-tiles-with-overlays_2_39
+  - first:
+      213: 7121167921712878143
+    second: a2-tiles-with-overlays_2_40
+  - first:
+      213: 6069200886528439621
+    second: a2-tiles-with-overlays_2_41
+  - first:
+      213: 8833297148229816665
+    second: a2-tiles-with-overlays_2_42
+  - first:
+      213: -6077305262095949647
+    second: a2-tiles-with-overlays_2_43
+  - first:
+      213: 3527901763512648099
+    second: a2-tiles-with-overlays_2_44
+  - first:
+      213: 1916941047479573697
+    second: a2-tiles-with-overlays_2_45
+  - first:
+      213: 2070882390078084778
+    second: a2-tiles-with-overlays_2_46
+  - first:
+      213: -7540747377485737497
+    second: a2-tiles-with-overlays_2_47
+  - first:
+      213: 8092290547558080399
+    second: a2-tiles-with-overlays_2_48
+  - first:
+      213: -1530235634550577660
+    second: a2-tiles-with-overlays_2_49
+  - first:
+      213: 5833922230282296777
+    second: a2-tiles-with-overlays_2_50
+  - first:
+      213: -5374751919891130169
+    second: a2-tiles-with-overlays_2_51
+  - first:
+      213: -5585497476135454462
+    second: a2-tiles-with-overlays_2_52
+  - first:
+      213: 7607777885936466841
+    second: a2-tiles-with-overlays_2_53
+  - first:
+      213: -3672781652311840161
+    second: a2-tiles-with-overlays_2_54
+  - first:
+      213: 1343883803479507697
+    second: a2-tiles-with-overlays_2_55
+  - first:
+      213: -8429054426863456745
+    second: a2-tiles-with-overlays_2_56
+  - first:
+      213: -6419524135963098401
+    second: a2-tiles-with-overlays_2_57
+  - first:
+      213: 2249432219665063081
+    second: a2-tiles-with-overlays_2_58
+  - first:
+      213: -1923642152152260160
+    second: a2-tiles-with-overlays_2_59
+  - first:
+      213: 6256710819906276290
+    second: a2-tiles-with-overlays_2_60
+  - first:
+      213: -6503308044248393215
+    second: a2-tiles-with-overlays_2_61
+  - first:
+      213: -1308608386525018559
+    second: a2-tiles-with-overlays_2_62
+  - first:
+      213: -6610000355356025201
+    second: a2-tiles-with-overlays_2_63
+  - first:
+      213: 6738811161991443771
+    second: a2-tiles-with-overlays_2_64
+  - first:
+      213: -7853901344370152248
+    second: a2-tiles-with-overlays_2_65
+  - first:
+      213: -947697908816514683
+    second: a2-tiles-with-overlays_2_66
+  - first:
+      213: -6141568134636880652
+    second: a2-tiles-with-overlays_2_67
+  - first:
+      213: 7995496859692634827
+    second: a2-tiles-with-overlays_2_68
+  - first:
+      213: -1005158036416351884
+    second: a2-tiles-with-overlays_2_69
+  - first:
+      213: 4787251954836887958
+    second: a2-tiles-with-overlays_2_70
+  - first:
+      213: -9013320650263519820
+    second: a2-tiles-with-overlays_2_71
+  - first:
+      213: 1303015336453405627
+    second: a2-tiles-with-overlays_2_72
+  - first:
+      213: 1704868046441541404
+    second: a2-tiles-with-overlays_2_73
+  - first:
+      213: -7526741340137207664
+    second: a2-tiles-with-overlays_2_74
+  - first:
+      213: -6437989756477442446
+    second: a2-tiles-with-overlays_2_75
+  - first:
+      213: 7314043184940143774
+    second: a2-tiles-with-overlays_2_76
+  - first:
+      213: -3775246915199321313
+    second: a2-tiles-with-overlays_2_77
+  - first:
+      213: -2970239261254708373
+    second: a2-tiles-with-overlays_2_78
+  - first:
+      213: -508703301222484694
+    second: a2-tiles-with-overlays_2_79
+  - first:
+      213: -1571653124237681642
+    second: a2-tiles-with-overlays_2_80
+  - first:
+      213: 339045933743731039
+    second: a2-tiles-with-overlays_2_81
+  - first:
+      213: -2073249893880964836
+    second: a2-tiles-with-overlays_2_82
+  - first:
+      213: 8805478294390664252
+    second: a2-tiles-with-overlays_2_83
+  - first:
+      213: -7032639053508212859
+    second: a2-tiles-with-overlays_2_84
+  - first:
+      213: -7737928837898178490
+    second: a2-tiles-with-overlays_2_85
+  - first:
+      213: 5631826087295745802
+    second: a2-tiles-with-overlays_2_86
+  - first:
+      213: -4855276672841079550
+    second: a2-tiles-with-overlays_2_87
+  - first:
+      213: 6108352500213671515
+    second: a2-tiles-with-overlays_2_88
+  - first:
+      213: -4208838578495121961
+    second: a2-tiles-with-overlays_2_89
+  - first:
+      213: -1273577290369758038
+    second: a2-tiles-with-overlays_2_90
+  - first:
+      213: 8313923289305540294
+    second: a2-tiles-with-overlays_2_91
+  - first:
+      213: -6273964638522160620
+    second: a2-tiles-with-overlays_2_92
+  - first:
+      213: -7336423036433919416
+    second: a2-tiles-with-overlays_2_93
+  - first:
+      213: 1365022969365339692
+    second: a2-tiles-with-overlays_2_94
+  - first:
+      213: 4960686010602009090
+    second: a2-tiles-with-overlays_2_95
+  - first:
+      213: -1530943897513633322
+    second: a2-tiles-with-overlays_2_96
+  - first:
+      213: -8648860056454530316
+    second: a2-tiles-with-overlays_2_97
+  - first:
+      213: -2716417114386967444
+    second: a2-tiles-with-overlays_2_98
+  - first:
+      213: 630501301520320703
+    second: a2-tiles-with-overlays_2_99
+  - first:
+      213: -8667823567363440458
+    second: a2-tiles-with-overlays_2_100
+  - first:
+      213: -3752740412310770476
+    second: a2-tiles-with-overlays_2_101
+  - first:
+      213: 8682829557098646504
+    second: a2-tiles-with-overlays_2_102
+  - first:
+      213: 2749413305299625607
+    second: a2-tiles-with-overlays_2_103
+  - first:
+      213: -763690095526354452
+    second: a2-tiles-with-overlays_2_104
+  - first:
+      213: -6621950620648460654
+    second: a2-tiles-with-overlays_2_105
+  - first:
+      213: -1927075423549062887
+    second: a2-tiles-with-overlays_2_106
+  - first:
+      213: 2021898727828183989
+    second: a2-tiles-with-overlays_2_107
+  - first:
+      213: -5340248075840904652
+    second: a2-tiles-with-overlays_2_108
+  - first:
+      213: -3650431127819390733
+    second: a2-tiles-with-overlays_2_109
+  - first:
+      213: 5176049906716628888
+    second: a2-tiles-with-overlays_2_110
+  - first:
+      213: 8000517913313727830
+    second: a2-tiles-with-overlays_2_111
+  - first:
+      213: -8593096385409742347
+    second: a2-tiles-with-overlays_2_112
+  - first:
+      213: -5290146641014034886
+    second: a2-tiles-with-overlays_2_113
+  - first:
+      213: 2791013369803254427
+    second: a2-tiles-with-overlays_2_114
+  - first:
+      213: -386163442223053166
+    second: a2-tiles-with-overlays_2_115
+  - first:
+      213: -7336901267215464203
+    second: a2-tiles-with-overlays_2_116
+  - first:
+      213: -3373116317218284973
+    second: a2-tiles-with-overlays_2_117
+  - first:
+      213: -6810682127758117298
+    second: a2-tiles-with-overlays_2_118
+  - first:
+      213: 8892070249021834320
+    second: a2-tiles-with-overlays_2_119
+  - first:
+      213: 3832597922386407962
+    second: a2-tiles-with-overlays_2_120
+  - first:
+      213: 2836388952920488652
+    second: a2-tiles-with-overlays_2_121
+  - first:
+      213: -6333209451163453583
+    second: a2-tiles-with-overlays_2_122
+  - first:
+      213: 6554501601451166529
+    second: a2-tiles-with-overlays_2_123
+  - first:
+      213: 598080772103647481
+    second: a2-tiles-with-overlays_2_124
+  - first:
+      213: 4156585955984856107
+    second: a2-tiles-with-overlays_2_125
+  - first:
+      213: 6612944363826331435
+    second: a2-tiles-with-overlays_2_126
+  - first:
+      213: -2694493456152571579
+    second: a2-tiles-with-overlays_2_127
+  - first:
+      213: -7641962788960855013
+    second: a2-tiles-with-overlays_2_128
+  - first:
+      213: 721516165108964532
+    second: a2-tiles-with-overlays_2_129
+  - first:
+      213: 6272655173288082603
+    second: a2-tiles-with-overlays_2_130
+  - first:
+      213: -5545394113074939088
+    second: a2-tiles-with-overlays_2_131
+  - first:
+      213: 1326524572994460509
+    second: a2-tiles-with-overlays_2_132
+  - first:
+      213: 8602940228146748338
+    second: a2-tiles-with-overlays_2_133
+  - first:
+      213: -6260526676635758310
+    second: a2-tiles-with-overlays_2_134
+  - first:
+      213: 630957248133779396
+    second: a2-tiles-with-overlays_2_135
+  - first:
+      213: 8815327296255819133
+    second: a2-tiles-with-overlays_2_136
+  - first:
+      213: 6888091770793472241
+    second: a2-tiles-with-overlays_2_137
+  - first:
+      213: 2506746257863590687
+    second: a2-tiles-with-overlays_2_138
+  - first:
+      213: 699192333245123708
+    second: a2-tiles-with-overlays_2_139
+  - first:
+      213: 2817893220227554914
+    second: a2-tiles-with-overlays_2_140
+  - first:
+      213: 437084483925082530
+    second: a2-tiles-with-overlays_2_141
+  - first:
+      213: -1107873200098540866
+    second: a2-tiles-with-overlays_2_142
+  - first:
+      213: -3527682169752588540
+    second: a2-tiles-with-overlays_2_143
+  - first:
+      213: -3821854914393654812
+    second: a2-tiles-with-overlays_2_144
+  - first:
+      213: -8875109576763444184
+    second: a2-tiles-with-overlays_2_145
+  - first:
+      213: 2892900144825716246
+    second: a2-tiles-with-overlays_2_146
+  - first:
+      213: 6096861702346320979
+    second: a2-tiles-with-overlays_2_147
+  - first:
+      213: -5918690526813963917
+    second: a2-tiles-with-overlays_2_148
+  - first:
+      213: -8033113630633271390
+    second: a2-tiles-with-overlays_2_149
+  - first:
+      213: 6131121517550525761
+    second: a2-tiles-with-overlays_2_150
+  - first:
+      213: 3414989379277665726
+    second: a2-tiles-with-overlays_2_151
+  - first:
+      213: 7913984823198757115
+    second: a2-tiles-with-overlays_2_152
+  - first:
+      213: 3915297870163104563
+    second: a2-tiles-with-overlays_2_153
+  - first:
+      213: 1199885062062085671
+    second: a2-tiles-with-overlays_2_154
+  - first:
+      213: -3225740297404455132
+    second: a2-tiles-with-overlays_2_155
+  - first:
+      213: -2732064624323022178
+    second: a2-tiles-with-overlays_2_156
+  - first:
+      213: -5702802031383217388
+    second: a2-tiles-with-overlays_2_157
+  - first:
+      213: 4398126063605813543
+    second: a2-tiles-with-overlays_2_158
+  - first:
+      213: 1520023431303326969
+    second: a2-tiles-with-overlays_2_159
+  - first:
+      213: 4168777203140522316
+    second: a2-tiles-with-overlays_2_160
+  - first:
+      213: 5514273511503494480
+    second: a2-tiles-with-overlays_2_161
+  - first:
+      213: 6937180271866877135
+    second: a2-tiles-with-overlays_2_162
+  - first:
+      213: -539437623422552425
+    second: a2-tiles-with-overlays_2_163
+  - first:
+      213: -7006064504110611510
+    second: a2-tiles-with-overlays_2_164
+  - first:
+      213: 2285760363755925163
+    second: a2-tiles-with-overlays_2_165
+  - first:
+      213: -11120331523111519
+    second: a2-tiles-with-overlays_2_166
+  - first:
+      213: -7686799180600346659
+    second: a2-tiles-with-overlays_2_167
+  - first:
+      213: -3579264741142991572
+    second: a2-tiles-with-overlays_2_168
+  - first:
+      213: -8650030994689372046
+    second: a2-tiles-with-overlays_2_169
+  - first:
+      213: 1637740197561917473
+    second: a2-tiles-with-overlays_2_170
+  - first:
+      213: 1294408512257549407
+    second: a2-tiles-with-overlays_2_171
+  - first:
+      213: 3854268074213392082
+    second: a2-tiles-with-overlays_2_172
+  - first:
+      213: 493167979158788918
+    second: a2-tiles-with-overlays_2_173
+  - first:
+      213: 4408647422795302376
+    second: a2-tiles-with-overlays_2_174
+  - first:
+      213: -4723768816043466820
+    second: a2-tiles-with-overlays_2_175
+  - first:
+      213: -7442428682452996946
+    second: a2-tiles-with-overlays_2_176
+  - first:
+      213: 319805317358917560
+    second: a2-tiles-with-overlays_2_177
+  - first:
+      213: -8181437904691406366
+    second: a2-tiles-with-overlays_2_178
+  - first:
+      213: -7146273033475490505
+    second: a2-tiles-with-overlays_2_179
+  - first:
+      213: -8204638799919482363
+    second: a2-tiles-with-overlays_2_180
+  - first:
+      213: 4305338295690004545
+    second: a2-tiles-with-overlays_2_181
+  - first:
+      213: -5157927883713798568
+    second: a2-tiles-with-overlays_2_182
+  - first:
+      213: 1560761235704735614
+    second: a2-tiles-with-overlays_2_183
+  - first:
+      213: 3910725574010339648
+    second: a2-tiles-with-overlays_2_184
+  - first:
+      213: 1216297061922371015
+    second: a2-tiles-with-overlays_2_185
+  - first:
+      213: 8668846052439352419
+    second: a2-tiles-with-overlays_2_186
+  - first:
+      213: 327598830875671938
+    second: a2-tiles-with-overlays_2_187
+  - first:
+      213: 2005814402850044600
+    second: a2-tiles-with-overlays_2_188
+  - first:
+      213: -4194900888237393561
+    second: a2-tiles-with-overlays_2_189
+  - first:
+      213: -2318915734449713229
+    second: a2-tiles-with-overlays_2_190
+  - first:
+      213: -2987482301158041567
+    second: a2-tiles-with-overlays_2_191
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +1192,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +1222,4101 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675e0d8156556fef0800000000000000
+      internalID: -74778451108633226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cd3c79a560b2290800000000000000
+      internalID: -7914224934010495941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000aac7ab882e4300800000000000000
+      internalID: 238172410577854464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdd1b1d1d973a4a0800000000000000
+      internalID: -6583284288212312646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d68de2aae72f9c70800000000000000
+      internalID: 8979940070709364440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7f173acf610a290800000000000000
+      internalID: -7881274073568643161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca44a26d6155990d0800000000000000
+      internalID: -3415605285813074772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9d5a03d6f2dbee0800000000000000
+      internalID: -1243785776070272559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22664b8b98ba57440800000000000000
+      internalID: 4933037574851946018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62677b8ab72a82cb0800000000000000
+      internalID: -4888478743515400666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2156a37b661514e0800000000000000
+      internalID: -2011677007793467093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8a9d1be81c4ef60800000000000000
+      internalID: 8062782051513378977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f742974940a108b0800000000000000
+      internalID: -5187689059160274951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6785a09dd39a6470800000000000000
+      internalID: 8388679835754792814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0187ff7abfb3f5f0800000000000000
+      internalID: -724024307344768756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc5c2002e2030b00800000000000000
+      internalID: 793481129036111069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6480a2a0b4e56b0800000000000000
+      internalID: -5305720803968923955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8740ac5611763cd00800000000000000
+      internalID: 991749667371484280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aac7cf3893e3a140800000000000000
+      internalID: 4729874276713745058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9ed0454a16ad030800000000000000
+      internalID: 3520233417156192674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0c64c8d29b0cc00800000000000000
+      internalID: 918937929261695231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9aa7d0ef9fe4170800000000000000
+      internalID: 8164738044012439968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae3aa22dc316970800000000000000
+      internalID: 8746338824686398006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e8c819ecc8f3310800000000000000
+      internalID: 1386982029086461562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8592bc863a40c9a0800000000000000
+      internalID: -6214885887622081139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df8db42efd63ffe0800000000000000
+      internalID: -1156459740998561832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e5fdfd658d8b810800000000000000
+      internalID: 1781411520259776094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd57ad12740ad55a0800000000000000
+      internalID: -6530887657246263843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13611b0df6f5415d0800000000000000
+      internalID: -3092742110249413071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f28b932af79ca900800000000000000
+      internalID: 697099142930596599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88a20afc070cf170800000000000000
+      internalID: 8213447572732422286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b46a34b2a1996a0800000000000000
+      internalID: -6442089018855896320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced87d32430ded730800000000000000
+      internalID: 4025884039274008044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6353461f630c7af40800000000000000
+      internalID: 5739767592317629750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9be5302013443a20800000000000000
+      internalID: 3041129384920869789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c17745818234530800000000000000
+      internalID: 3837955392411212847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c07a8fcd8961bb0800000000000000
+      internalID: -4965613464297468800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f530e05d863c920800000000000000
+      internalID: 3009364240286048036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8ee13204dcecd30800000000000000
+      internalID: 4453722756866828482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af54af495d876c910800000000000000
+      internalID: 1857304755059705338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f325a97ce7873d260800000000000000
+      internalID: 7121167921712878143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5457300ec022a3450800000000000000
+      internalID: 6069200886528439621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95195bb94fc269a70800000000000000
+      internalID: 8833297148229816665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0a825201319aba0800000000000000
+      internalID: -6077305262095949647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a145a856ff95f030800000000000000
+      internalID: 3527901763512648099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc926ee9b75a9a10800000000000000
+      internalID: 1916941047479573697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa65730df804dbc10800000000000000
+      internalID: 2070882390078084778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e111087632e95790800000000000000
+      internalID: -7540747377485737497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f5372d0679d4070800000000000000
+      internalID: 8092290547558080399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406e7f34cc283cae0800000000000000
+      internalID: -1530235634550577660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd1b37eb5146f050800000000000000
+      internalID: 5833922230282296777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c85a030b9b0965b0800000000000000
+      internalID: -5374751919891130169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209fa1183a35c72b0800000000000000
+      internalID: -5585497476135454462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bb055fda1449960800000000000000
+      internalID: 7607777885936466841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a6164eb88a70dc0800000000000000
+      internalID: -3672781652311840161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f20cc5f23f66a210800000000000000
+      internalID: 1343883803479507697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eae5668abf50b80800000000000000
+      internalID: -8429054426863456745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd28fd87fc449e6a0800000000000000
+      internalID: -6419524135963098401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac547f8fa6973f10800000000000000
+      internalID: 2249432219665063081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c12ffd87a9dd45e0800000000000000
+      internalID: -1923642152152260160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb4bda575d44d650800000000000000
+      internalID: 6256710819906276290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a52ad2acb9fb5a0800000000000000
+      internalID: -6503308044248393215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14644131b93e6dde0800000000000000
+      internalID: -1308608386525018559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e5cc5b2bf8444a0800000000000000
+      internalID: -6610000355356025201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35ffee4c01158d50800000000000000
+      internalID: 6738811161991443771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccaadbc656510390800000000000000
+      internalID: -7853901344370152248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5817c96e5c919d2f0800000000000000
+      internalID: -947697908816514683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc3c1b2254c4caa0800000000000000
+      internalID: -6141568134636880652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc21bbc2806b5fe60800000000000000
+      internalID: 7995496859692634827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47136486716fc02f0800000000000000
+      internalID: -1005158036416351884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699d85af94cbf6240800000000000000
+      internalID: 4787251954836887958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd995a8f904ae280800000000000000
+      internalID: -9013320650263519820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbf03a7b8d351210800000000000000
+      internalID: 1303015336453405627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fef099478e8a710800000000000000
+      internalID: 1704868046441541404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098cfd821a4ab8790800000000000000
+      internalID: -7526741340137207664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276fe892d6aa7a6a0800000000000000
+      internalID: -6437989756477442446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9459367683b08560800000000000000
+      internalID: 7314043184940143774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bb728cee0ab9bc0800000000000000
+      internalID: -3775246915199321313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b639efef02797c6d0800000000000000
+      internalID: -2970239261254708373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25b092fa09b0f8f0800000000000000
+      internalID: -508703301222484694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c1eab7fcd503ae0800000000000000
+      internalID: -1571653124237681642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51f55bfa7884b400800000000000000
+      internalID: 339045933743731039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19db90c4365a33e0800000000000000
+      internalID: -2073249893880964836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c6196fad7533a70800000000000000
+      internalID: 8805478294390664252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5878a169a0c076e90800000000000000
+      internalID: -7032639053508212859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640f3df18ba5d9490800000000000000
+      internalID: -7737928837898178490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f7a0adcf3482e40800000000000000
+      internalID: 5631826087295745802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205211527979e9cb0800000000000000
+      internalID: -4855276672841079550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56ea1a4c3a35c450800000000000000
+      internalID: 6108352500213671515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d596dbbc933795c0800000000000000
+      internalID: -4208838578495121961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac818db338535ee0800000000000000
+      internalID: -1273577290369758038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c667ecbe2df06370800000000000000
+      internalID: 8313923289305540294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a4683f6666ee8a0800000000000000
+      internalID: -6273964638522160620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8421d5f4e1acf2a90800000000000000
+      internalID: -7336423036433919416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e154f882981f210800000000000000
+      internalID: 1365022969365339692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_95
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202be20d4a5e7d440800000000000000
+      internalID: 4960686010602009090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9d5a1f2aef0cae0800000000000000
+      internalID: -1530943897513633322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa76fe2a9319f780800000000000000
+      internalID: -8648860056454530316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c645c23d6095d4ad0800000000000000
+      internalID: -2716417114386967444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb84a8bd79dffb800800000000000000
+      internalID: 630501301520320703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b00b8bb364b5b780800000000000000
+      internalID: -8667823567363440458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dca6f55a769bebc0800000000000000
+      internalID: -3752740412310770476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb80248a7b9f7870800000000000000
+      internalID: 8682829557098646504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786ed1b85d0e72620800000000000000
+      internalID: 2749413305299625607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1eaa187e3d665f0800000000000000
+      internalID: -763690095526354452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e2210cefa1a14a0800000000000000
+      internalID: -6621950620648460654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91109f3cc17a145e0800000000000000
+      internalID: -1927075423549062887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb53043e2a3f0c10800000000000000
+      internalID: 2021898727828183989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4322a0b3ba0a3e5b0800000000000000
+      internalID: -5340248075840904652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_109
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0fb45ea30175dc0800000000000000
+      internalID: -3650431127819390733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897d98d57f505d740800000000000000
+      internalID: 5176049906716628888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_111
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655d63257ac870f60800000000000000
+      internalID: 8000517913313727830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f985fa9d503fb880800000000000000
+      internalID: -8593096385409742347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ee1ac88af9596b0800000000000000
+      internalID: -5290146641014034886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a2d765fdbabb620800000000000000
+      internalID: 2791013369803254427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2968d01356214aaf0800000000000000
+      internalID: -386163442223053166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f842878b271e2a90800000000000000
+      internalID: -7336901267215464203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a512eb4984031d0800000000000000
+      internalID: -3373116317218284973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4630e870b89b71a0800000000000000
+      internalID: -6810682127758117298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05404ce77caf66b70800000000000000
+      internalID: 8892070249021834320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12fdb2218f103530800000000000000
+      internalID: 3832597922386407962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccafaaf89b0ec5720800000000000000
+      internalID: 2836388952920488652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17771471f8beb18a0800000000000000
+      internalID: -6333209451163453583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_123
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bc932ba7446fa50800000000000000
+      internalID: 6554501601451166529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_124
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0ba302b4fcc4800800000000000000
+      internalID: 598080772103647481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_125
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24dad887e82fa930800000000000000
+      internalID: 4156585955984856107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f3a4dacd5e5cb50800000000000000
+      internalID: 6612944363826331435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_127
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54159684a7c3b9ad0800000000000000
+      internalID: -2694493456152571579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c1c31155b42f590800000000000000
+      internalID: -7641962788960855013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc95012127530a00800000000000000
+      internalID: 721516165108964532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac3a5a65a2fc0750800000000000000
+      internalID: 6272655173288082603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b30a65f6dca03b0800000000000000
+      internalID: -5545394113074939088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b59272213c86210800000000000000
+      internalID: 1326524572994460509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbda92ae88c36770800000000000000
+      internalID: 8602940228146748338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11d44448242e19a0800000000000000
+      internalID: -6260526676635758310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfc873364c91c800800000000000000
+      internalID: 630957248133779396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7df1286875565a70800000000000000
+      internalID: 8815327296255819133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_137
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0bf6a88fa679f50800000000000000
+      internalID: 6888091770793472241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13cff1b070c9c220800000000000000
+      internalID: 2506746257863590687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_139
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c80ccf8b704b900800000000000000
+      internalID: 699192333245123708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e15a634fa2b1720800000000000000
+      internalID: 2817893220227554914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_141
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a18039b506d01600800000000000000
+      internalID: 437084483925082530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb283fbb13b00a0f0800000000000000
+      internalID: -1107873200098540866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_143
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fea6fc1c72b0fc0800000000000000
+      internalID: -3527682169752588540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e93c74543b06fac0800000000000000
+      internalID: -3821854914393654812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824f85ebcd645d480800000000000000
+      internalID: -8875109576763444184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e430fba55a52820800000000000000
+      internalID: 2892900144825716246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c290d6a676c9450800000000000000
+      internalID: 6096861702346320979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379b8cd03569cdda0800000000000000
+      internalID: -5918690526813963917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af51c5d6b5a48090800000000000000
+      internalID: -8033113630633271390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d5a50498e161550800000000000000
+      internalID: 6131121517550525761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_151
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b39f3fba746f20800000000000000
+      internalID: 3414989379277665726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf03890444f14dd60800000000000000
+      internalID: 7913984823198757115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_153
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3335ae43baee55630800000000000000
+      internalID: 3915297870163104563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_154
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726128f4b19d6a010800000000000000
+      internalID: 1199885062062085671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4276b8b4a4edb33d0800000000000000
+      internalID: -3225740297404455132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_156
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92b0d303b1c51ad0800000000000000
+      internalID: -2732064624323022178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_157
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bf60764c39bd0b0800000000000000
+      internalID: -5702802031383217388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_158
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7219c924a58490d30800000000000000
+      internalID: 4398126063605813543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_159
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcea11e145381510800000000000000
+      internalID: 1520023431303326969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41ffe477c87ad930800000000000000
+      internalID: 4168777203140522316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_161
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05df287fa82a68c40800000000000000
+      internalID: 5514273511503494480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc41977d3b0d54060800000000000000
+      internalID: 6937180271866877135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796fa6de6588388f0800000000000000
+      internalID: -539437623422552425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_164
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac38307047575ce90800000000000000
+      internalID: -7006064504110611510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_165
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baee65bb0f6a8bf10800000000000000
+      internalID: 2285760363755925163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_166
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5c7cd0e1e78dff0800000000000000
+      internalID: -11120331523111519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_167
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd77d842fd0035590800000000000000
+      internalID: -7686799180600346659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_168
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d67138ea5e35ec0800000000000000
+      internalID: -3579264741142991572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_169
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270db61e3aae4f780800000000000000
+      internalID: -8650030994689372046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1206e06580c6ab610800000000000000
+      internalID: 1637740197561917473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_171
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f546a5f0fa9a6f110800000000000000
+      internalID: 1294408512257549407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_172
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de3e98846c1d7530800000000000000
+      internalID: 3854268074213392082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_173
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b5b540aa518d600800000000000000
+      internalID: 493167979158788918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_174
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5c7a71979ae2d30800000000000000
+      internalID: 4408647422795302376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_175
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf59a61a4dc17eb0800000000000000
+      internalID: -4723768816043466820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eace5348b8e27b890800000000000000
+      internalID: -7442428682452996946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_177
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b79572ed3d207400800000000000000
+      internalID: 319805317358917560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_178
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9d3f2a291b57e80800000000000000
+      internalID: -8181437904691406366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_179
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d7db3e98653dc90800000000000000
+      internalID: -7146273033475490505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_180
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a79644b74432e80800000000000000
+      internalID: -8204638799919482363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_181
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1480d788e52afbb30800000000000000
+      internalID: 4305338295690004545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e182aeaeb5b68b0800000000000000
+      internalID: -5157927883713798568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_183
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7761691310f8a510800000000000000
+      internalID: 1560761235704735614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_184
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0410cec8030b54630800000000000000
+      internalID: 3910725574010339648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_185
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5fb3dcbb721e010800000000000000
+      internalID: 1216297061922371015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_186
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364e1302e8ded4870800000000000000
+      internalID: 8668846052439352419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_187
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d7d27a66ddb8400800000000000000
+      internalID: 327598830875671938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_188
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba3d37729516db10800000000000000
+      internalID: 2005814402850044600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_189
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769b3a02ed7b8c5c0800000000000000
+      internalID: -4194900888237393561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_190
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf8f08fc6e81dfd0800000000000000
+      internalID: -2318915734449713229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a2-tiles-with-overlays_2_191
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12855baeca45a86d0800000000000000
+      internalID: -2987482301158041567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
