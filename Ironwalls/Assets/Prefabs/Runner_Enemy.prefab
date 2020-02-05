@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8594406957283207222}
   - component: {fileID: 5976684674847759086}
   - component: {fileID: 8594406957283207223}
+  - component: {fileID: 2902107321601698151}
   m_Layer: 0
   m_Name: Runner_Enemy
   m_TagString: Enemy
@@ -145,3 +146,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   moveSpeed: 5
+--- !u!58 &2902107321601698151
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594406957283207210}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.25
