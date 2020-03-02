@@ -4,17 +4,25 @@ using UnityEngine;
 
 public class RangerScript : MonoBehaviour
 {
+    private Rigidbody2D rb;
+    private float currentShot;
+    private bool shot;
+    private Animator anim;
 
     public float speed;
     public float stoppingDistance;
     public float retreatDistance;
-    private Rigidbody2D rb;
     public Transform player;
+
+    public float delayShot;
+    public GameObject bullet;
+    public Transform bulletSpawn;
 
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindWithTag("Player").transform;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,6 +44,27 @@ public class RangerScript : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
         }
+
+        if(currentShot == 0)
+        {
+            Shoot();
+        }
+        if (shot && currentShot < delayShot)
+        {
+            currentShot += 1 * Time.deltaTime;
+        }
+        if(currentShot >= delayShot)
+        {
+            currentShot = 0;
+        }
+        anim.SetBool("isShooting", anim);
+    }
+
+    public void Shoot()
+    {
+        shot = true;
+        Instantiate(bullet, bulletSpawn.position, transform.rotation);
+        Debug.Log("Shot");
     }
 }
 
