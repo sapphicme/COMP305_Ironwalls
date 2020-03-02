@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScrollScript : MonoBehaviour
 {
@@ -17,12 +18,12 @@ public class ScrollScript : MonoBehaviour
 
     public AudioSource audioTwo;
     public AudioClip trainTrack;
+    
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -73,6 +74,7 @@ public class ScrollScript : MonoBehaviour
             audioTwo.volume = 0.0f;
             Debug.Log("volume off");
             trainCol.SetActive(false);
+            SceneManager.LoadScene("Player_LevelOne");
         }
     }
 
