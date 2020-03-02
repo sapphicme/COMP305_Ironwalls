@@ -43,9 +43,9 @@ GameObject:
   - component: {fileID: 9029782822186480817}
   - component: {fileID: -5662930082207379684}
   - component: {fileID: 1309472520900610110}
+  - component: {fileID: -2521747121306614819}
   - component: {fileID: 9029782822186480816}
   - component: {fileID: 566805493}
-  - component: {fileID: -2521747121306614819}
   m_Layer: 0
   m_Name: Ranger_Enemy
   m_TagString: Enemy
@@ -156,7 +156,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.504, y: 1.656}
+    oldSize: {x: 3.682353, y: 2.4352942}
     newSize: {x: 2.504, y: 1.656}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -181,41 +181,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.252
---- !u!114 &9029782822186480816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9029782822186480821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 611be24a3cae1b64a91f9baa805dd33b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  stoppingDistance: 10
-  retreatDistance: 10
-  player: {fileID: 0}
-  delayShot: 1
-  bullet: {fileID: 5920069736124896521, guid: 842718fba64fc014d888d4db286b88c8, type: 3}
-  bulletSpawn: {fileID: 734508860}
---- !u!114 &566805493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9029782822186480821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5a0b552a1772ba4295ddc30a1ba581c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 50
-  currentHealth: 0
-  blinkColor: {r: 1, g: 0, b: 0, a: 1}
-  blinkDuration: 0.5
 --- !u!95 &-2521747121306614819
 Animator:
   serializedVersion: 3
@@ -235,3 +200,38 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9029782822186480816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029782822186480821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611be24a3cae1b64a91f9baa805dd33b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  stoppingDistance: 10
+  retreatDistance: 10
+  player: {fileID: 564926997748628482, guid: 21724561506d65b47bf9e49afe9704c3, type: 3}
+  delayShot: 1
+  bullet: {fileID: 5920069736124896521, guid: 842718fba64fc014d888d4db286b88c8, type: 3}
+  bulletSpawn: {fileID: 734508860}
+--- !u!114 &566805493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029782822186480821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a0b552a1772ba4295ddc30a1ba581c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  currentHealth: 0
+  blinkColor: {r: 1, g: 0, b: 0, a: 1}
+  blinkDuration: 0.5
