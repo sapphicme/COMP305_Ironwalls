@@ -75,7 +75,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b55c82b676625246a1944659481dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammo: 30
+  ammo: 120
+  currentClip: 30
+  clipSize: 30
+  reloadTime: 2
+  spread: 5
+  fireDelay: 0.1
+  range: 1
   bullet: {fileID: 5312355207226727836, guid: 1707a9721415ae74fbcb9b8d14d6b8ac, type: 3}
 --- !u!212 &83973678554327515
 SpriteRenderer:
@@ -115,7 +121,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2943649710136103269, guid: 2ba6ab970d06e6242b1d8accc9d104aa,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

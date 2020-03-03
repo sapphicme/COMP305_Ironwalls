@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class MachineGunController : MonoBehaviour
 {
-    [SerializeField] private int ammo = 30;
+    [SerializeField] private int ammo = 120;
+    [SerializeField] private int currentClip = 30;
+    [SerializeField] private int clipSize = 30;
+    [SerializeField] private float reloadTime = 2.0f;
+    [SerializeField] private float spread = 5.0f;
+    [SerializeField] private float fireDelay = 0.1f;
+    [SerializeField] private float range = 1.0f;
     [SerializeField] private GameObject bullet;
 
     private Transform bulletSpawn;
-    private float fireDelay = 0.0f;
     private bool isFiring = false;
+    private bool isReloading = false;
     private float time;
 
     // Start is called before the first frame update
@@ -23,24 +29,62 @@ public class MachineGunController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            isFiring = true;            
-        } 
-        else if (Input.GetMouseButtonUp(0)) 
+            isFiring = true;
+        }
+        else if (Input.GetMouseButtonUp(0))
         {
             isFiring = false;
+        }
+
+        if (Input.GetKeyUp(KeyCode.R))
+        {
+            isReloading = true;
         }
     }
 
     void FixedUpdate()
     {
-        if (isFiring == true)
+        if (currentClip != 0 && isFiring == true)
         {
             time += Time.deltaTime;
-            if (time > 0.1f)
+            if (time >= fireDelay)
             {
-                Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = Quaternion.Euler(0, 0, Random.Range(-5.0f, 5.0f)));
+                Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
+                currentClip--;
                 time = 0;
-            }           
+            }
+        }
+        else if (currentClip == 0 && ammo != 0 && isFiring == true)
+        {
+            time += Time.deltaTime;
+            if (ammo - clipSize >= 0 && time >= reloadTime)
+            {
+                ammo -= clipSize;
+                currentClip = 30;
+                time = 0;
+            }
+            else if (ammo - clipSize < 0 && time >= reloadTime)
+            {
+                currentClip = ammo;
+                ammo = 0;
+                time = 0;
+            }            
+        }
+        else if (isReloading == true && currentClip < clipSize && ammo != 0)
+        {
+            time += Time.deltaTime;
+            if (ammo - clipSize >= 0 && time >= reloadTime)
+            {
+                ammo -= clipSize;
+                currentClip = 30;
+                time = 0;
+            }
+            else if (ammo - clipSize < 0 && time >= reloadTime)
+            {
+                currentClip = ammo;
+                ammo = 0;
+                time = 0;
+            }            
         }
     }
 }

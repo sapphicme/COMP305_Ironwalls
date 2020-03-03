@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MachineGunBulletController : MonoBehaviour
 {
-    [SerializeField] private float speed = 10f;
+    [SerializeField] private float speed = 20f;
     private Rigidbody2D rbody;
 
     // Start is called before the first frame update
