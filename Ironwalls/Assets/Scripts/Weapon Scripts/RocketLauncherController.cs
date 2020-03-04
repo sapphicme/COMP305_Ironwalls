@@ -52,7 +52,7 @@ public class RocketLauncherController : MonoBehaviour
         {
             if (isNextRound == true)
             {               
-                Instantiate(rocket, rocketSpawn.position, rocketSpawn.rotation);
+                Instantiate(rocket, rocketSpawn.position, rocketSpawn.rotation = gameObject.transform.parent.gameObject.transform.rotation);
                 currentClip--;
                 isNextRound = false;
                 isFiring = false;

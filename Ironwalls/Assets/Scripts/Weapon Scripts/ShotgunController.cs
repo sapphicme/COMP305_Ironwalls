@@ -58,7 +58,7 @@ public class ShotgunController : MonoBehaviour
             {
                 for (int i = 0; i < pellets; i++)
                 {
-                    Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
+                    Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = gameObject.transform.parent.gameObject.transform.rotation * Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
                 }
                 currentClip--;
                 isNextRound = false;
