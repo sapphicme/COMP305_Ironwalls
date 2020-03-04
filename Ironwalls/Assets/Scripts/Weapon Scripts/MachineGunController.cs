@@ -13,7 +13,7 @@ public class MachineGunController : MonoBehaviour
     [SerializeField] private float range = 1.0f;
     [SerializeField] private GameObject bullet;
 
-    private Transform bulletSpawn;
+    [SerializeField] private Transform bulletSpawn;
     private bool isFiring = false;
     private bool isReloading = false;
     private bool isNextRound = true;
@@ -50,7 +50,7 @@ public class MachineGunController : MonoBehaviour
         {
             if (isNextRound == true)
             {
-                Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
+                Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = gameObject.transform.parent.gameObject.transform.rotation * Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
                 currentClip--;
                 isNextRound = false;
             }
@@ -58,7 +58,7 @@ public class MachineGunController : MonoBehaviour
             time += Time.deltaTime;
             if (time >= fireDelay)
             {
-                Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
+                Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = gameObject.transform.parent.gameObject.transform.rotation * Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
                 currentClip--;
                 time = 0;
             }

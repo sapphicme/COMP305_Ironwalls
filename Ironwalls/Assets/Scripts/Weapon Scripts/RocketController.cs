@@ -5,35 +5,57 @@ using UnityEngine;
 public class RocketController : MonoBehaviour
 {
     [SerializeField] private float speed = 20f;
+
     private Rigidbody2D rbody;
+    private GameObject rocketImage;
+    private GameObject rocketTrail;
+    private GameObject explosion;
+    private bool isStop = false;
 
     // Start is called before the first frame update
     void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
+        rocketImage = gameObject.GetComponent<Transform>().Find("Rocket_Image").gameObject;
+        rocketTrail = gameObject.GetComponent<Transform>().Find("Rocket_Trail").gameObject;
+        explosion = gameObject.GetComponent<Transform>().Find("Explosion").gameObject;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (isStop == true)
+        {
+            rocketImage.SetActive(false);
+            rocketTrail.SetActive(false);
+        }
     }
 
     void FixedUpdate()
     {
-        rbody.velocity = transform.right * speed;
+        if (isStop == false)
+        {
+            rbody.velocity = transform.right * speed;
+        }
+        else if (isStop == true)
+        {
+            rbody.velocity = transform.right * speed * 0;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Enemy")
         {
-            Destroy(other.gameObject);
-            Destroy(gameObject);
+            isStop = true;
+            Destroy(gameObject, 0.1f);
+            explosion.SetActive(true);
         }
         if (other.tag == "Wall")
         {
-            Destroy(gameObject);
+            isStop = true;
+            Destroy(gameObject, 1.0f);
+            explosion.SetActive(true);
         }
     }
 }
