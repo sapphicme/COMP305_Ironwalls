@@ -12,7 +12,7 @@ public class MachineGunController : MonoBehaviour
     [SerializeField] private float fireDelay = 0.1f;
     [SerializeField] private float range = 1.0f;
     [SerializeField] private GameObject bullet;
-
+    
     private Transform bulletSpawn;
     private bool isFiring = false;
     private bool isReloading = false;
