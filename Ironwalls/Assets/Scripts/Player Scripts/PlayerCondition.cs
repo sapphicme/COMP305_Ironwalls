@@ -15,7 +15,7 @@ public class PlayerCondition : MonoBehaviour
 
     //"Public" Variables
     //Max Health of player
-    [SerializeField]private int maxHealth = 100;
+    [SerializeField]public int maxHealth = 100;
     //current health of player
     [SerializeField]private int currentHealth;
     //Number of lives 

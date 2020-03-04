@@ -6,11 +6,12 @@ public class EnemyBulletController : MonoBehaviour
 {
     public float speed = 10f;
     public Rigidbody2D body;
+    public PlayerCondition p;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        body = this.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -18,14 +19,18 @@ public class EnemyBulletController : MonoBehaviour
     {
         body.velocity = transform.right * speed;
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            Destroy(other.gameObject);
+            p.maxHealth -= 5;
             Destroy(gameObject);
         }
-        if (other.tag == "Wall")
+        if (p.maxHealth <= 0)
+        {
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.tag == "Wall")
         {
             Destroy(gameObject);
         }

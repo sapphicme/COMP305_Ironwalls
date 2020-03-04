@@ -2,27 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyCondition : MonoBehaviour
+[CreateAssetMenu(menuName = "AI/EnemyStats")]
+public class EnemyCondition : ScriptableObject
 {
     //Max Health of enemy
-    [SerializeField] private int maxHealth = 50;
+    [Header("Health State")]
+    public int maxHealth = 50;
     //current health of enemy
-    [SerializeField] private int currentHealth;
+    public int currentHealth;
     //What color the sprite will blink when damaged
-    [SerializeField] private Color blinkColor = Color.red;
+    public Color blinkColor = Color.red;
     //How long the blink will be when damaged
-    [SerializeField] private float blinkDuration = 0.5f;
-
-    private EnemyBulletController bulletController;
-
-    void Start()
-    {
-        //bulletController.GetComponent<EnemyBulletController>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float blinkDuration = 0.5f;
 }

@@ -6,7 +6,7 @@ public class RunnerScript : MonoBehaviour
 {
     public Transform player;
     public float moveSpeed = 5f;
-    public float health;
+    public PlayerCondition p;
 
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -44,7 +44,12 @@ public class RunnerScript : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             anim.SetBool("isContact", isAttacking);
+            p.maxHealth -= 5;
             //Destroy(collision.gameObject);
+        }
+        if(p.maxHealth <= 0)
+        {
+            Destroy(collision.gameObject);
         }
         else if(collision.gameObject.tag != "Player")
         {
