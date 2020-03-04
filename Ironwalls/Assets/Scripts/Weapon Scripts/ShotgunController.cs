@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MachineGunController : MonoBehaviour
+public class ShotgunController : MonoBehaviour
 {
-    [SerializeField] private int ammo = 120;
-    [SerializeField] private int currentClip = 30;
-    [SerializeField] private int clipSize = 30;
-    [SerializeField] private float reloadTime = 2.0f;
-    [SerializeField] private float spread = 5.0f;
-    [SerializeField] private float fireDelay = 0.1f;
-    [SerializeField] private float range = 1.0f;
+    [SerializeField] private int ammo = 40;
+    [SerializeField] private int currentClip = 8;
+    [SerializeField] private int clipSize = 8;
+    [SerializeField] private int pellets = 10;
+    [SerializeField] private float reloadTime = 1.0f;
+    [SerializeField] private float spread = 10.0f;
+    [SerializeField] private float fireDelay = 1.0f;
+    [SerializeField] private float range = 0.5f;
     [SerializeField] private GameObject bullet;
 
     private Transform bulletSpawn;
@@ -21,21 +22,16 @@ public class MachineGunController : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {        
+    {
         bulletSpawn = gameObject.GetComponent<Transform>().Find("Bullet_Spawn");
     }
 
     // Update is called once per frame
     void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
+    {      
+        if (isNextRound == true && Input.GetMouseButtonDown(0))
         {
-            isFiring = true;            
-        }
-        else if (Input.GetMouseButtonUp(0))
-        {
-            isFiring = false;
-            isNextRound = true;
+            isFiring = true;
         }
 
         if (Input.GetKeyUp(KeyCode.R))
@@ -46,54 +42,60 @@ public class MachineGunController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (isNextRound == false)
+        {
+            time += Time.deltaTime;
+            if (time >= fireDelay)
+            {
+                time = 0;
+                isNextRound = true;
+            }
+        }
+
         if (currentClip != 0 && isFiring == true)
         {
             if (isNextRound == true)
             {
-                Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
+                for (int i = 0; i < pellets; i++)
+                {
+                    Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
+                }
                 currentClip--;
                 isNextRound = false;
-            }
-
-            time += Time.deltaTime;
-            if (time >= fireDelay)
-            {
-                Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
-                currentClip--;
-                time = 0;
-            }
+                isFiring = false;
+            }            
         }
         else if (currentClip == 0 && ammo != 0 && isFiring == true)
         {
             time += Time.deltaTime;
-            if (ammo - clipSize >= 0 && time >= reloadTime)
+            if (ammo - clipSize >= 0 && time >= reloadTime * clipSize)
             {
                 ammo -= clipSize;
                 currentClip = clipSize;
                 time = 0;
             }
-            else if (ammo - clipSize < 0 && time >= reloadTime)
+            else if (ammo - clipSize < 0 && time >= reloadTime * ammo)
             {
                 currentClip = ammo;
                 ammo = 0;
                 time = 0;
-            }            
+            }
         }
         else if (isReloading == true && currentClip < clipSize && ammo != 0)
         {
             time += Time.deltaTime;
-            if (ammo - clipSize >= 0 && time >= reloadTime)
+            if (ammo - clipSize >= 0 && time >= reloadTime * clipSize)
             {
                 ammo -= clipSize;
                 currentClip = clipSize;
                 time = 0;
             }
-            else if (ammo - clipSize < 0 && time >= reloadTime)
+            else if (ammo - clipSize < 0 && time >= reloadTime * ammo)
             {
                 currentClip = ammo;
                 ammo = 0;
                 time = 0;
-            }            
+            }
         }
     }
 }
