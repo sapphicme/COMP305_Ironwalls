@@ -63,7 +63,8 @@ public class RangerScript : MonoBehaviour
     public void Shoot()
     {
         shot = true;
-        Instantiate(bullet, bulletSpawn.position, transform.rotation);
+        var clone = Instantiate(bullet, bulletSpawn.position, transform.rotation);
+        clone.AddComponent<PlayerCondition>();
         Debug.Log("Shot");
     }
 }

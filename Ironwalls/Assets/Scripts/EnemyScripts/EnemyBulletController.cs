@@ -6,12 +6,13 @@ public class EnemyBulletController : MonoBehaviour
 {
     public float speed = 10f;
     public Rigidbody2D body;
-    public PlayerCondition p;
+    public PlayerCondition damagePlayer;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         body = this.GetComponent<Rigidbody2D>();
+        damagePlayer = GetComponent<PlayerCondition>();
     }
 
     // Update is called once per frame
@@ -19,14 +20,15 @@ public class EnemyBulletController : MonoBehaviour
     {
         body.velocity = transform.right * speed;
     }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            p.maxHealth -= 5;
+            damagePlayer.maxHealth -= 2;
             Destroy(gameObject);
         }
-        if (p.maxHealth <= 0)
+        if (damagePlayer.maxHealth <= 0)
         {
             Destroy(other.gameObject);
         }
@@ -35,5 +37,4 @@ public class EnemyBulletController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
 }

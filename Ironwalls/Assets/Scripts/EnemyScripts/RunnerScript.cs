@@ -6,7 +6,7 @@ public class RunnerScript : MonoBehaviour
 {
     public Transform player;
     public float moveSpeed = 5f;
-    public PlayerCondition p;
+    public PlayerCondition damagePlayer;
 
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -39,15 +39,15 @@ public class RunnerScript : MonoBehaviour
     {
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             anim.SetBool("isContact", isAttacking);
-            p.maxHealth -= 5;
-            //Destroy(collision.gameObject);
+            damagePlayer.maxHealth -= 2;
         }
-        if(p.maxHealth <= 0)
+        if(damagePlayer.maxHealth <= 0)
         {
             Destroy(collision.gameObject);
         }
