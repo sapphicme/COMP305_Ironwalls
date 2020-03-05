@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 564926997748628606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.37, y: -13.28, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 564926998573793010}
   - {fileID: 631975814172426573}
@@ -50,6 +50,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9d982749494d440ba606f9c555e106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 8
+  dash: 300
   machineGun: {fileID: 0}
   shotgun: {fileID: 0}
   rocketLauncher: {fileID: 0}
@@ -120,7 +122,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 650639d01e8963d41896ace078ee951c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
