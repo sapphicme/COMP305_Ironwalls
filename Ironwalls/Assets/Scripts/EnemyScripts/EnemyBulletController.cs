@@ -12,7 +12,7 @@ public class EnemyBulletController : MonoBehaviour
     public void Start()
     {
         body = this.GetComponent<Rigidbody2D>();
-        damagePlayer = GetComponent<PlayerCondition>();
+        damagePlayer = GameObject.FindWithTag("Player").GetComponent<PlayerCondition>();
     }
 
     // Update is called once per frame

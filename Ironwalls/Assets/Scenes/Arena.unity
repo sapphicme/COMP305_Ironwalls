@@ -12788,6 +12788,12 @@ PrefabInstance:
       propertyPath: damagePlayer
       value: 
       objectReference: {fileID: 1940583575}
+    - target: {fileID: 9029782822186480816, guid: 64304641aea441149b8cfe05dc9118de,
+        type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 5920069736124896521, guid: 842718fba64fc014d888d4db286b88c8,
+        type: 3}
     - target: {fileID: 9029782822186480821, guid: 64304641aea441149b8cfe05dc9118de,
         type: 3}
       propertyPath: m_Name
@@ -12796,7 +12802,7 @@ PrefabInstance:
     - target: {fileID: 9029782822186480821, guid: 64304641aea441149b8cfe05dc9118de,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9029782822186480823, guid: 64304641aea441149b8cfe05dc9118de,
         type: 3}
@@ -12942,10 +12948,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5976684674847759086, guid: 88bc06e38b24eb94d85fdf9d6a33e741,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976684674847759086, guid: 88bc06e38b24eb94d85fdf9d6a33e741,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8594406957283207210, guid: 88bc06e38b24eb94d85fdf9d6a33e741,
         type: 3}
       propertyPath: m_Name
       value: Runner_Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594406957283207210, guid: 88bc06e38b24eb94d85fdf9d6a33e741,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8594406957283207220, guid: 88bc06e38b24eb94d85fdf9d6a33e741,
         type: 3}
@@ -13012,7 +13033,8 @@ PrefabInstance:
       propertyPath: damagePlayer
       value: 
       objectReference: {fileID: 1940583575}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5976684674847759086, guid: 88bc06e38b24eb94d85fdf9d6a33e741, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 88bc06e38b24eb94d85fdf9d6a33e741, type: 3}
 --- !u!1 &1940583574 stripped
 GameObject:
@@ -13032,7 +13054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6c7c81ce56422949a466a1d540ca171, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 75
+  maxHealth: 80
   currentHealth: 0
   lives: 3
   blinkColor: {r: 1, g: 0, b: 0, a: 1}
