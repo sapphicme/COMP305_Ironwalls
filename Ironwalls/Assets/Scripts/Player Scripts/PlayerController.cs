@@ -5,8 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 8;
-    [SerializeField] private float dash = 300;
+    [SerializeField] private float dash = 50;
     [SerializeField] private float dashDelayTime = 2.0f;
+    [SerializeField] private bool isCoolingDash = false;    
     [SerializeField] private int weapon = 1;
     [SerializeField] private GameObject machineGun;
     [SerializeField] private GameObject shotgun;
@@ -16,8 +17,7 @@ public class PlayerController : MonoBehaviour
     private int doubleTapA = 0;
     private int doubleTapS = 0;
     private int doubleTapD = 0;
-    private bool isCoolingDash = false;
-    private float time = 0.0f;         
+    private float time = 0.0f;
     private Rigidbody2D rb;
     private Camera cam;
     //public Transform firePoint;
@@ -167,5 +167,20 @@ public class PlayerController : MonoBehaviour
             doubleTapD = 0;
             isCoolingDash = true;
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+            isCoolingDash = true;        
+    }
+
+    void OnTriggerStay2D(Collider2D col)
+    {
+            isCoolingDash = true;
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {       
+            isCoolingDash = false;
     }
 }
