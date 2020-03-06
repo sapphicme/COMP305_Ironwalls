@@ -4,20 +4,25 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 8;
-    [SerializeField] private float dash = 50;
+    [SerializeField] private float moveSpeed = 8.0f;
+    [SerializeField] private float dash = 50.0f;
     [SerializeField] private float dashDelayTime = 2.0f;
-    [SerializeField] private bool isCoolingDash = false;    
+    [SerializeField] private bool isCoolingDash = false;
     [SerializeField] private int weapon = 1;
     [SerializeField] private GameObject machineGun;
     [SerializeField] private GameObject shotgun;
     [SerializeField] private GameObject rocketLauncher;
+    [SerializeField] private GameObject crate;
+    [SerializeField] private int numberOfCrates = 0;
+    [SerializeField] private bool isHolding = false;
+    [SerializeField] private float throwCrate = 10.0f;
 
     private int doubleTapW = 0;
     private int doubleTapA = 0;
     private int doubleTapS = 0;
     private int doubleTapD = 0;
     private float time = 0.0f;
+    private GameObject cratePosition;
     private Rigidbody2D rb;
     private Camera cam;
     //public Transform firePoint;
@@ -27,6 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         cam = Camera.main;
         rb = gameObject.GetComponent<Rigidbody2D>();
+        cratePosition = gameObject.GetComponent<Transform>().Find("Crate_Position").gameObject;
         machineGun = gameObject.GetComponent<Transform>().Find("Machine_Gun").gameObject;
         shotgun = gameObject.GetComponent<Transform>().Find("Shotgun").gameObject;
         rocketLauncher = gameObject.GetComponent<Transform>().Find("Rocket_Launcher").gameObject;
@@ -35,6 +41,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Switch Weapon
         if (Input.GetAxis("Mouse ScrollWheel") > 0f) // scroll up
         {
             if (weapon + 1 <= 3)
@@ -77,6 +84,35 @@ public class PlayerController : MonoBehaviour
             rocketLauncher.SetActive(true);
         }
 
+        // Drop Crate(s)
+        if (isHolding == true && Input.GetMouseButtonUp(1))
+        {           
+
+            cratePosition.SetActive(false);
+
+            for (int i = 0; i < numberOfCrates; i++)
+            {
+                Instantiate(crate, cratePosition.transform.position, cratePosition.transform.rotation);
+            }
+
+            isHolding = false;
+            numberOfCrates = 0;
+        }
+
+        // Throw Crate(s)
+        if (isHolding == true && Input.GetMouseButtonDown(0))
+        {
+            cratePosition.SetActive(false);
+
+            for (int i = 0; i < numberOfCrates; i++)
+            {
+                Instantiate(crate, cratePosition.transform.position, cratePosition.transform.rotation).GetComponent<Rigidbody2D>().AddForce(transform.right * throwCrate, ForceMode2D.Impulse);
+            }
+
+            isHolding = false;
+            numberOfCrates = 0;
+        }
+
         rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * moveSpeed;
         Vector3 mouse = Input.mousePosition;
         Vector3 screenPoint = Camera.main.WorldToScreenPoint(transform.localPosition);
@@ -89,6 +125,7 @@ public class PlayerController : MonoBehaviour
         //    Instantiate(bulletToFire, firePoint.position, transform.rotation);
         //}
 
+        // Dash
         if (isCoolingDash == true)
         {
             time += Time.deltaTime;
@@ -100,7 +137,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // W
+        // W 
         if (isCoolingDash == false && Input.GetKeyDown(KeyCode.W))
         {
             doubleTapW++;
@@ -171,16 +208,31 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-            isCoolingDash = true;        
+        isCoolingDash = true;
+        if (isHolding == false && col.tag == "Crate")
+        {
+            numberOfCrates++;
+        }
     }
+
 
     void OnTriggerStay2D(Collider2D col)
     {
-            isCoolingDash = true;
+        isCoolingDash = true;
+        if (Input.GetMouseButtonDown(1) && col.tag == "Crate")
+        {
+            isHolding = true;
+            cratePosition.SetActive(true);
+            Destroy(col.gameObject);
+        }
     }
 
     void OnTriggerExit2D(Collider2D col)
-    {       
-            isCoolingDash = false;
+    {
+        isCoolingDash = false;
+        if (isHolding == false && col.tag == "Crate")
+        {
+            numberOfCrates--;
+        }
     }
 }
