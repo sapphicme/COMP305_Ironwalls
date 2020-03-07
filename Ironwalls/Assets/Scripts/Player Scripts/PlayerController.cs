@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float dashDelayTime = 2.0f;
     [SerializeField] private bool isCoolingDash = false;
     [SerializeField] private int weapon = 1;
+    [SerializeField] private GameObject pistol;
     [SerializeField] private GameObject machineGun;
     [SerializeField] private GameObject shotgun;
     [SerializeField] private GameObject rocketLauncher;
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
         cam = Camera.main;
         rb = gameObject.GetComponent<Rigidbody2D>();
         cratePosition = gameObject.GetComponent<Transform>().Find("Crate_Position").gameObject;
+        pistol = gameObject.GetComponent<Transform>().Find("Pistol").gameObject;
         machineGun = gameObject.GetComponent<Transform>().Find("Machine_Gun").gameObject;
         shotgun = gameObject.GetComponent<Transform>().Find("Shotgun").gameObject;
         rocketLauncher = gameObject.GetComponent<Transform>().Find("Rocket_Launcher").gameObject;
@@ -44,13 +46,42 @@ public class PlayerController : MonoBehaviour
         // Switch Weapon
         if (Input.GetAxis("Mouse ScrollWheel") > 0f) // scroll up
         {
-            if (weapon + 1 <= 3)
+            if (weapon + 1 <= 4)
             {
                 weapon++;
             }
-            else if (weapon + 1 > 3)
+            else if (weapon + 1 > 4)
             {
                 weapon = 1;
+            }
+
+            if (weapon == 1)
+            {
+                pistol.SetActive(true);
+                machineGun.SetActive(false);
+                shotgun.SetActive(false);
+                rocketLauncher.SetActive(false);
+            }
+            else if (weapon == 2)
+            {
+                pistol.SetActive(false);
+                machineGun.SetActive(true);
+                shotgun.SetActive(false);
+                rocketLauncher.SetActive(false);
+            }
+            else if (weapon == 3)
+            {
+                pistol.SetActive(false);
+                machineGun.SetActive(false);
+                shotgun.SetActive(true);
+                rocketLauncher.SetActive(false);
+            }
+            else if (weapon == 4)
+            {
+                pistol.SetActive(false);
+                machineGun.SetActive(false);
+                shotgun.SetActive(false);
+                rocketLauncher.SetActive(true);
             }
         }
         else if (Input.GetAxis("Mouse ScrollWheel") < 0f) // scroll down
@@ -61,24 +92,67 @@ public class PlayerController : MonoBehaviour
             }
             else if (weapon - 1 < 1)
             {
-                weapon = 3;
+                weapon = 4;
+            }
+
+            if (weapon == 1)
+            {
+                pistol.SetActive(true);
+                machineGun.SetActive(false);
+                shotgun.SetActive(false);
+                rocketLauncher.SetActive(false);
+            }
+            else if (weapon == 2)
+            {
+                pistol.SetActive(false);
+                machineGun.SetActive(true);
+                shotgun.SetActive(false);
+                rocketLauncher.SetActive(false);
+            }
+            else if (weapon == 3)
+            {
+                pistol.SetActive(false);
+                machineGun.SetActive(false);
+                shotgun.SetActive(true);
+                rocketLauncher.SetActive(false);
+            }
+            else if (weapon == 4)
+            {
+                pistol.SetActive(false);
+                machineGun.SetActive(false);
+                shotgun.SetActive(false);
+                rocketLauncher.SetActive(true);
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) || weapon == 1)
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
+            weapon = 1;
+            pistol.SetActive(true);
+            machineGun.SetActive(false);
+            shotgun.SetActive(false);
+            rocketLauncher.SetActive(false);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            weapon = 2;
+            pistol.SetActive(false);
             machineGun.SetActive(true);
             shotgun.SetActive(false);
             rocketLauncher.SetActive(false);
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) || weapon == 2)
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
+            weapon = 3;
+            pistol.SetActive(false);
             machineGun.SetActive(false);
             shotgun.SetActive(true);
             rocketLauncher.SetActive(false);
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) || weapon == 3)
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
+            weapon = 4;
+            pistol.SetActive(false);
             machineGun.SetActive(false);
             shotgun.SetActive(false);
             rocketLauncher.SetActive(true);
