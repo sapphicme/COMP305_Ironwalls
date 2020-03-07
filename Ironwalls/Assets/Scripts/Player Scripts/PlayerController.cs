@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject rocketLauncher;
     [SerializeField] private GameObject crate;
     [SerializeField] private int numberOfCrates = 0;
+    [SerializeField] private int numberOfDetectdCrates = 0;
     [SerializeField] private bool isHolding = false;
     [SerializeField] private float throwCrate = 10.0f;
 
@@ -40,6 +41,46 @@ public class PlayerController : MonoBehaviour
         rocketLauncher = gameObject.GetComponent<Transform>().Find("Rocket_Launcher").gameObject;
     }
 
+    void HideWeapons()
+    {
+        pistol.SetActive(false);
+        machineGun.SetActive(false);
+        shotgun.SetActive(false);
+        rocketLauncher.SetActive(false);
+    }
+
+    void SwitchWeapon()
+    {
+        if (weapon == 1)
+        {
+            pistol.SetActive(true);
+            machineGun.SetActive(false);
+            shotgun.SetActive(false);
+            rocketLauncher.SetActive(false);
+        }
+        else if (weapon == 2)
+        {
+            pistol.SetActive(false);
+            machineGun.SetActive(true);
+            shotgun.SetActive(false);
+            rocketLauncher.SetActive(false);
+        }
+        else if (weapon == 3)
+        {
+            pistol.SetActive(false);
+            machineGun.SetActive(false);
+            shotgun.SetActive(true);
+            rocketLauncher.SetActive(false);
+        }
+        else if (weapon == 4)
+        {
+            pistol.SetActive(false);
+            machineGun.SetActive(false);
+            shotgun.SetActive(false);
+            rocketLauncher.SetActive(true);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -55,34 +96,7 @@ public class PlayerController : MonoBehaviour
                 weapon = 1;
             }
 
-            if (weapon == 1)
-            {
-                pistol.SetActive(true);
-                machineGun.SetActive(false);
-                shotgun.SetActive(false);
-                rocketLauncher.SetActive(false);
-            }
-            else if (weapon == 2)
-            {
-                pistol.SetActive(false);
-                machineGun.SetActive(true);
-                shotgun.SetActive(false);
-                rocketLauncher.SetActive(false);
-            }
-            else if (weapon == 3)
-            {
-                pistol.SetActive(false);
-                machineGun.SetActive(false);
-                shotgun.SetActive(true);
-                rocketLauncher.SetActive(false);
-            }
-            else if (weapon == 4)
-            {
-                pistol.SetActive(false);
-                machineGun.SetActive(false);
-                shotgun.SetActive(false);
-                rocketLauncher.SetActive(true);
-            }
+            SwitchWeapon();
         }
         else if (Input.GetAxis("Mouse ScrollWheel") < 0f) // scroll down
         {
@@ -95,73 +109,34 @@ public class PlayerController : MonoBehaviour
                 weapon = 4;
             }
 
-            if (weapon == 1)
-            {
-                pistol.SetActive(true);
-                machineGun.SetActive(false);
-                shotgun.SetActive(false);
-                rocketLauncher.SetActive(false);
-            }
-            else if (weapon == 2)
-            {
-                pistol.SetActive(false);
-                machineGun.SetActive(true);
-                shotgun.SetActive(false);
-                rocketLauncher.SetActive(false);
-            }
-            else if (weapon == 3)
-            {
-                pistol.SetActive(false);
-                machineGun.SetActive(false);
-                shotgun.SetActive(true);
-                rocketLauncher.SetActive(false);
-            }
-            else if (weapon == 4)
-            {
-                pistol.SetActive(false);
-                machineGun.SetActive(false);
-                shotgun.SetActive(false);
-                rocketLauncher.SetActive(true);
-            }
+            SwitchWeapon();
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             weapon = 1;
-            pistol.SetActive(true);
-            machineGun.SetActive(false);
-            shotgun.SetActive(false);
-            rocketLauncher.SetActive(false);
+            SwitchWeapon();
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             weapon = 2;
-            pistol.SetActive(false);
-            machineGun.SetActive(true);
-            shotgun.SetActive(false);
-            rocketLauncher.SetActive(false);
+            SwitchWeapon();
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             weapon = 3;
-            pistol.SetActive(false);
-            machineGun.SetActive(false);
-            shotgun.SetActive(true);
-            rocketLauncher.SetActive(false);
+            SwitchWeapon();
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             weapon = 4;
-            pistol.SetActive(false);
-            machineGun.SetActive(false);
-            shotgun.SetActive(false);
-            rocketLauncher.SetActive(true);
+            SwitchWeapon();
         }
 
         // Drop Crate(s)
         if (isHolding == true && Input.GetMouseButtonUp(1))
-        {           
-
+        {
+            SwitchWeapon();
             cratePosition.SetActive(false);
 
             for (int i = 0; i < numberOfCrates; i++)
@@ -171,11 +146,16 @@ public class PlayerController : MonoBehaviour
 
             isHolding = false;
             numberOfCrates = 0;
+            moveSpeed = 8;
+            isCoolingDash = false;
+            dashDelayTime = 2;
         }
 
         // Throw Crate(s)
         if (isHolding == true && Input.GetMouseButtonDown(0))
         {
+            throwCrate = throwCrate / numberOfCrates;
+            SwitchWeapon();
             cratePosition.SetActive(false);
 
             for (int i = 0; i < numberOfCrates; i++)
@@ -185,6 +165,10 @@ public class PlayerController : MonoBehaviour
 
             isHolding = false;
             numberOfCrates = 0;
+            moveSpeed = 8;
+            throwCrate = 10;
+            isCoolingDash = false;
+            dashDelayTime = 2;
         }
 
         rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * moveSpeed;
@@ -200,15 +184,15 @@ public class PlayerController : MonoBehaviour
         //}
 
         // Dash
-        if (isCoolingDash == true)
+        if (dashDelayTime != -1 && isCoolingDash == true)
         {
             time += Time.deltaTime;
-
+            
             if (time >= dashDelayTime)
             {
                 time = 0;
                 isCoolingDash = false;
-            }
+            } 
         }
 
         // W 
@@ -286,6 +270,10 @@ public class PlayerController : MonoBehaviour
         if (isHolding == false && col.tag == "Crate")
         {
             numberOfCrates++;
+        } 
+        else if (isHolding == true)
+        {
+            numberOfDetectdCrates++;
         }
     }
 
@@ -295,18 +283,40 @@ public class PlayerController : MonoBehaviour
         isCoolingDash = true;
         if (Input.GetMouseButtonDown(1) && col.tag == "Crate")
         {
+            if (numberOfDetectdCrates != 0)
+            {
+                numberOfCrates += numberOfDetectdCrates;
+                numberOfDetectdCrates = 0;
+            }
+
+            moveSpeed = moveSpeed / numberOfCrates;            
+            dashDelayTime = -1;            
+
             isHolding = true;
+            isCoolingDash = true;            
             cratePosition.SetActive(true);
+            HideWeapons();
             Destroy(col.gameObject);
         }
     }
 
     void OnTriggerExit2D(Collider2D col)
     {
-        isCoolingDash = false;
+        if (dashDelayTime != -1)
+        {
+            isCoolingDash = false;
+        }
+
         if (isHolding == false && col.tag == "Crate")
         {
             numberOfCrates--;
+        }
+        else if (isHolding == true)
+        {
+            if (numberOfDetectdCrates != 0)
+            {
+                numberOfDetectdCrates--;
+            }
         }
     }
 }
