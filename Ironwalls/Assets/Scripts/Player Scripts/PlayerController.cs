@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private int weapon = 1;
-    [SerializeField] private GameObject pistol;
-    [SerializeField] private GameObject machineGun;
-    [SerializeField] private GameObject shotgun;
-    [SerializeField] private GameObject rocketLauncher;
-    [SerializeField] private GameObject crate;
-    [SerializeField] private int numberOfCrates = 0;
-    [SerializeField] private int numberOfDetectdCrates = 0;
-    [SerializeField] private bool isHolding = false;
-    [SerializeField] private float throwCrate = 10.0f;
+    //[SerializeField] private int weapon = 1;
+    //[SerializeField] private GameObject pistol;
+    //[SerializeField] private GameObject machineGun;
+    //[SerializeField] private GameObject shotgun;
+    //[SerializeField] private GameObject rocketLauncher;
+    //[SerializeField] private GameObject crate;
+    [SerializeField] private int numberOfCrates;
+    //[SerializeField] private int numberOfDetectdCrates = 0;
+    [SerializeField] private bool isHolding;
+    //[SerializeField] private float throwCrate = 10.0f;
 
     [SerializeField] private float moveSpeed = 8.0f;
     [SerializeField] private float dash = 100.0f;
@@ -35,140 +35,151 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        rb = gameObject.GetComponent<Rigidbody2D>();
-        cratePosition = gameObject.GetComponent<Transform>().Find("Crate_Position").gameObject;
-        pistol = gameObject.GetComponent<Transform>().Find("Pistol").gameObject;
-        machineGun = gameObject.GetComponent<Transform>().Find("Machine_Gun").gameObject;
-        shotgun = gameObject.GetComponent<Transform>().Find("Shotgun").gameObject;
-        rocketLauncher = gameObject.GetComponent<Transform>().Find("Rocket_Launcher").gameObject;
+        rb = gameObject.GetComponent<Rigidbody2D>();        
+        //cratePosition = gameObject.GetComponent<Transform>().Find("Crate_Position").gameObject;
+        //pistol = gameObject.GetComponent<Transform>().Find("Pistol").gameObject;
+        //machineGun = gameObject.GetComponent<Transform>().Find("Machine_Gun").gameObject;
+        //shotgun = gameObject.GetComponent<Transform>().Find("Shotgun").gameObject;
+        //rocketLauncher = gameObject.GetComponent<Transform>().Find("Rocket_Launcher").gameObject;
     }
 
-    void HideWeapons()
-    {
-        pistol.SetActive(false);
-        machineGun.SetActive(false);
-        shotgun.SetActive(false);
-        rocketLauncher.SetActive(false);
-    }
+    //void HideWeapons()
+    //{
+    //    pistol.SetActive(false);
+    //    machineGun.SetActive(false);
+    //    shotgun.SetActive(false);
+    //    rocketLauncher.SetActive(false);
+    //}
 
-    void SwitchWeapon()
-    {
-        if (weapon == 1)
-        {
-            pistol.SetActive(true);
-            machineGun.SetActive(false);
-            shotgun.SetActive(false);
-            rocketLauncher.SetActive(false);
-        }
-        else if (weapon == 2)
-        {
-            pistol.SetActive(false);
-            machineGun.SetActive(true);
-            shotgun.SetActive(false);
-            rocketLauncher.SetActive(false);
-        }
-        else if (weapon == 3)
-        {
-            pistol.SetActive(false);
-            machineGun.SetActive(false);
-            shotgun.SetActive(true);
-            rocketLauncher.SetActive(false);
-        }
-        else if (weapon == 4)
-        {
-            pistol.SetActive(false);
-            machineGun.SetActive(false);
-            shotgun.SetActive(false);
-            rocketLauncher.SetActive(true);
-        }
-    }
+    //void SwitchWeapon()
+    //{
+    //    if (weapon == 1)
+    //    {
+    //        pistol.SetActive(true);
+    //        machineGun.SetActive(false);
+    //        shotgun.SetActive(false);
+    //        rocketLauncher.SetActive(false);
+    //    }
+    //    else if (weapon == 2)
+    //    {
+    //        pistol.SetActive(false);
+    //        machineGun.SetActive(true);
+    //        shotgun.SetActive(false);
+    //        rocketLauncher.SetActive(false);
+    //    }
+    //    else if (weapon == 3)
+    //    {
+    //        pistol.SetActive(false);
+    //        machineGun.SetActive(false);
+    //        shotgun.SetActive(true);
+    //        rocketLauncher.SetActive(false);
+    //    }
+    //    else if (weapon == 4)
+    //    {
+    //        pistol.SetActive(false);
+    //        machineGun.SetActive(false);
+    //        shotgun.SetActive(false);
+    //        rocketLauncher.SetActive(true);
+    //    }
+    //}
 
     // Update is called once per frame
     void Update()
     {
-        // Switch Weapon
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f) // scroll up
-        {
-            if (weapon + 1 <= 4)
-            {
-                weapon++;
-            }
-            else if (weapon + 1 > 4)
-            {
-                weapon = 1;
-            }
+        isHolding = gameObject.GetComponent<Transform>().Find("Player_Top").gameObject.GetComponent<PlayerController2>().IsHolding();
+        numberOfCrates = gameObject.GetComponent<Transform>().Find("Player_Top").gameObject.GetComponent<PlayerController2>().NumberOfCrates();
 
-            SwitchWeapon();
-        }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0f) // scroll down
+        if (isHolding == true)
         {
-            if (weapon - 1 >= 1)
-            {
-                weapon--;
-            }
-            else if (weapon - 1 < 1)
-            {
-                weapon = 4;
-            }
-
-            SwitchWeapon();
+            moveSpeed = 8 / numberOfCrates;
+        } else
+        {
+            moveSpeed = 8;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            weapon = 1;
-            SwitchWeapon();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            weapon = 2;
-            SwitchWeapon();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            weapon = 3;
-            SwitchWeapon();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            weapon = 4;
-            SwitchWeapon();
-        }
+        //    // Switch Weapon
+        //    if (Input.GetAxis("Mouse ScrollWheel") > 0f) // scroll up
+        //    {
+        //        if (weapon + 1 <= 4)
+        //        {
+        //            weapon++;
+        //        }
+        //        else if (weapon + 1 > 4)
+        //        {
+        //            weapon = 1;
+        //        }
+
+        //        SwitchWeapon();
+        //    }
+        //    else if (Input.GetAxis("Mouse ScrollWheel") < 0f) // scroll down
+        //    {
+        //        if (weapon - 1 >= 1)
+        //        {
+        //            weapon--;
+        //        }
+        //        else if (weapon - 1 < 1)
+        //        {
+        //            weapon = 4;
+        //        }
+
+        //        SwitchWeapon();
+        //    }
+
+        //    if (Input.GetKeyDown(KeyCode.Alpha1))
+        //    {
+        //        weapon = 1;
+        //        SwitchWeapon();
+        //    }
+        //    else if (Input.GetKeyDown(KeyCode.Alpha2))
+        //    {
+        //        weapon = 2;
+        //        SwitchWeapon();
+        //    }
+        //    else if (Input.GetKeyDown(KeyCode.Alpha3))
+        //    {
+        //        weapon = 3;
+        //        SwitchWeapon();
+        //    }
+        //    else if (Input.GetKeyDown(KeyCode.Alpha4))
+        //    {
+        //        weapon = 4;
+        //        SwitchWeapon();
+        //    }
 
         // Drop Crate(s)
         if (isHolding == true && Input.GetMouseButtonUp(1))
         {
-            SwitchWeapon();
-            cratePosition.SetActive(false);
+            //        SwitchWeapon();
+            //        cratePosition.SetActive(false);
 
-            for (int i = 0; i < numberOfCrates; i++)
-            {
-                Instantiate(crate, cratePosition.transform.position, cratePosition.transform.rotation);
-            }
+            //        for (int i = 0; i < numberOfCrates; i++)
+            //        {
+            //            Instantiate(crate, cratePosition.transform.position, cratePosition.transform.rotation);
+            //        }
 
-            isHolding = false;
-            numberOfCrates = 0;
-            moveSpeed = 8;
+            //        isHolding = false;
+            //        numberOfCrates = 0;
+            //moveSpeed = 8;
             canDash = true;
             dashDelayTime = 2;
         }
 
-        // Throw Crate(s)
+        //    // Throw Crate(s)
         if (isHolding == true && Input.GetMouseButtonDown(0))
         {
-            throwCrate = throwCrate / numberOfCrates;
-            SwitchWeapon();
-            cratePosition.SetActive(false);
+            //        throwCrate = throwCrate / numberOfCrates;
+            //        SwitchWeapon();
+            //        cratePosition.SetActive(false);
 
-            for (int i = 0; i < numberOfCrates; i++)
-            {
-                Instantiate(crate, cratePosition.transform.position, cratePosition.transform.rotation).GetComponent<Rigidbody2D>().AddForce(transform.right * throwCrate, ForceMode2D.Impulse);
-            }
+            //        for (int i = 0; i < numberOfCrates; i++)
+            //        {
+            //            Instantiate(crate, cratePosition.transform.position, cratePosition.transform.rotation).GetComponent<Rigidbody2D>().AddForce(transform.right * throwCrate, ForceMode2D.Impulse);
+            //        }
 
-            isHolding = false;
-            numberOfCrates = 0;
-            moveSpeed = 8;
-            throwCrate = 10;
+            //        isHolding = false;
+            //        numberOfCrates = 0;
+            //        moveSpeed = 8;
+            //        throwCrate = 10;
             canDash = true;
             dashDelayTime = 2;
         }
@@ -271,37 +282,37 @@ public class PlayerController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         canDash = false;
-        if (isHolding == false && col.tag == "Crate")
-        {
-            numberOfCrates++;
-        } 
-        else if (isHolding == true)
-        {
-            numberOfDetectdCrates++;
-        }
+        //if (isHolding == false && col.tag == "Crate")
+        //{
+        //    numberOfCrates++;
+        //}
+        //else if (isHolding == true)
+        //{
+        //    numberOfDetectdCrates++;
+        //}
     }
 
 
     void OnTriggerStay2D(Collider2D col)
     {
         canDash = false;
-        if (Input.GetMouseButtonDown(1) && col.tag == "Crate")
-        {
-            if (numberOfDetectdCrates != 0)
-            {
-                numberOfCrates += numberOfDetectdCrates;
-                numberOfDetectdCrates = 0;
-            }
+        //if (Input.GetMouseButtonDown(1) && col.tag == "Crate")
+        //{
+        //    if (numberOfDetectdCrates != 0)
+        //    {
+        //        numberOfCrates += numberOfDetectdCrates;
+        //        numberOfDetectdCrates = 0;
+        //    }
 
-            moveSpeed = moveSpeed / numberOfCrates;
-            dashDelayTime = -1;
+        //    moveSpeed = moveSpeed / numberOfCrates;
+        //    dashDelayTime = -1;
 
-            isHolding = true;
-            canDash = false;
-            cratePosition.SetActive(true);
-            HideWeapons();
-            Destroy(col.gameObject);
-        }
+        //    isHolding = true;
+        //    canDash = false;
+        //    cratePosition.SetActive(true);
+        //    HideWeapons();
+        //    Destroy(col.gameObject);
+        //}
     }
 
     void OnTriggerExit2D(Collider2D col)
@@ -311,16 +322,16 @@ public class PlayerController : MonoBehaviour
             canDash = true;
         }
 
-        if (isHolding == false && col.tag == "Crate")
-        {
-            numberOfCrates--;
-        }
-        else if (isHolding == true)
-        {
-            if (numberOfDetectdCrates != 0)
-            {
-                numberOfDetectdCrates--;
-            }
-        }
+        //if (isHolding == false && col.tag == "Crate")
+        //{
+        //    numberOfCrates--;
+        //}
+        //else if (isHolding == true)
+        //{
+        //    if (numberOfDetectdCrates != 0)
+        //    {
+        //        numberOfDetectdCrates--;
+        //    }
+        //}
     }
 }

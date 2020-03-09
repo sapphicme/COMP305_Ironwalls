@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 564926997748628482}
   - component: {fileID: 564926997748628607}
   - component: {fileID: 564926997748628604}
+  - component: {fileID: 6483696207193364484}
   m_Layer: 0
   m_Name: Player_Bottom
   m_TagString: Player
@@ -45,16 +46,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9d982749494d440ba606f9c555e106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: 1
-  pistol: {fileID: 0}
-  machineGun: {fileID: 0}
-  shotgun: {fileID: 0}
-  rocketLauncher: {fileID: 0}
-  crate: {fileID: 201804071222675733, guid: f1cead173292bea4589d1ec6fdd96e4e, type: 3}
-  numberOfCrates: 0
-  numberOfDetectdCrates: 0
-  isHolding: 0
-  throwCrate: 10
   moveSpeed: 8
   dash: 50
   canDash: 1
@@ -85,36 +76,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &2863721213062357236
-GameObject:
+--- !u!58 &6483696207193364484
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7442960864823916938}
-  m_Layer: 0
-  m_Name: Player_Top
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7442960864823916938
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2863721213062357236}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7028189, y: 0.004716873, z: -1.5992016}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5467307011670288951}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 564926997748628606}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 4
 --- !u!1 &4605036636810369931
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +146,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4771153440913711240}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: -0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -236,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5467307011670288951}
   - component: {fileID: 1316517469115243168}
-  - component: {fileID: 173937596153572538}
+  - component: {fileID: 860448025618045342}
   - component: {fileID: 5477001207073145966}
   - component: {fileID: 1748978719005562158}
   m_Layer: 0
@@ -263,7 +240,6 @@ Transform:
   - {fileID: 6290984787936495114}
   - {fileID: 9189317465227030863}
   - {fileID: 5180305169543575694}
-  - {fileID: 7442960864823916938}
   m_Father: {fileID: 564926997748628482}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -318,7 +294,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &173937596153572538
+--- !u!114 &860448025618045342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -330,6 +306,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de1fd5bc95dd8c49822ccdd88af1ae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weapon: 1
+  pistol: {fileID: 0}
+  machineGun: {fileID: 0}
+  shotgun: {fileID: 0}
+  rocketLauncher: {fileID: 0}
+  crate: {fileID: 201804071222675733, guid: f1cead173292bea4589d1ec6fdd96e4e, type: 3}
+  numberOfCrates: 0
+  numberOfDetectdCrates: 0
+  isHolding: 0
+  throwCrate: 10
 --- !u!70 &5477001207073145966
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
