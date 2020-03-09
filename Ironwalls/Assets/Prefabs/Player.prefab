@@ -53,10 +53,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9d982749494d440ba606f9c555e106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
-  dash: 50
-  dashDelayTime: 2
-  isCoolingDash: 0
   weapon: 1
   pistol: {fileID: 0}
   machineGun: {fileID: 0}
@@ -64,8 +60,18 @@ MonoBehaviour:
   rocketLauncher: {fileID: 0}
   crate: {fileID: 201804071222675733, guid: f1cead173292bea4589d1ec6fdd96e4e, type: 3}
   numberOfCrates: 0
+  numberOfDetectdCrates: 0
   isHolding: 0
   throwCrate: 10
+  moveSpeed: 8
+  dash: 50
+  canDash: 1
+  isCoolingDash: 0
+  dashDelayTime: 2
+  dashW: 0
+  dashA: 0
+  dashS: 0
+  dashD: 0
 --- !u!212 &564926997748628605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -343,21 +349,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 83973678554327514, guid: 9d6da194d5d4f174183c9b09137895b1,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 83973678554327514, guid: 9d6da194d5d4f174183c9b09137895b1,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 83973678554327514, guid: 9d6da194d5d4f174183c9b09137895b1,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 83973678554327516, guid: 9d6da194d5d4f174183c9b09137895b1,
         type: 3}
       propertyPath: m_Name
@@ -448,21 +439,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2609642029423374520, guid: 8630621143886944fa759979e35d9a76,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2609642029423374520, guid: 8630621143886944fa759979e35d9a76,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2609642029423374520, guid: 8630621143886944fa759979e35d9a76,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8630621143886944fa759979e35d9a76, type: 3}
 --- !u!4 &2965250751984119587 stripped
@@ -533,21 +509,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3207740068762006440, guid: 4957bfb78d200374a9a5af652947551e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207740068762006440, guid: 4957bfb78d200374a9a5af652947551e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207740068762006440, guid: 4957bfb78d200374a9a5af652947551e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3207740068762006446, guid: 4957bfb78d200374a9a5af652947551e,
         type: 3}
       propertyPath: m_Name
@@ -577,11 +538,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pistol
-      objectReference: {fileID: 0}
-    - target: {fileID: 3236086798046659086, guid: 8f42329c1cfc1ef458df48b53f6315dc,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6148448288768818727, guid: 8f42329c1cfc1ef458df48b53f6315dc,
         type: 3}
