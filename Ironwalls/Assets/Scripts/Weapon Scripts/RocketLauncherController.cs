@@ -68,9 +68,9 @@ public class RocketLauncherController : MonoBehaviour
                 time = 0;
                 isFiring = false;
             }
-            else if (ammo - (clipSize - currentClip) < 0 && time >= reloadTime * ammo)
+            else if (ammo - clipSize < 0 && time >= reloadTime * ammo)
             {
-                currentClip = ammo;
+                currentClip += ammo;
                 ammo = 0;
                 time = 0;
                 isFiring = false;
@@ -90,9 +90,9 @@ public class RocketLauncherController : MonoBehaviour
                 time = 0;
                 isReloading = false;
             }
-            else if (ammo - (clipSize - currentClip) < 0 && time >= reloadTime * ammo)
+            else if (ammo - clipSize < 0 && time >= reloadTime * ammo)
             {
-                currentClip = ammo;
+                currentClip += ammo;
                 ammo = 0;
                 time = 0;
                 isReloading = false;

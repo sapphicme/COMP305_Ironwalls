@@ -66,15 +66,15 @@ public class MachineGunController : MonoBehaviour
         else if (isReloading == false && currentClip == 0 && ammo != 0 && isFiring == false)
         {
             time += Time.deltaTime;
-            if (ammo - clipSize >= 0 && time >= reloadTime)
+            if (ammo - (clipSize - currentClip) >= 0 && time >= reloadTime)
             {
-                ammo -= clipSize;
+                ammo -= clipSize - currentClip;
                 currentClip = clipSize;
                 time = 0;
             }
             else if (ammo - clipSize < 0 && time >= reloadTime)
             {
-                currentClip = ammo;
+                currentClip += ammo;
                 ammo = 0;
                 time = 0;
             }
@@ -86,16 +86,16 @@ public class MachineGunController : MonoBehaviour
         else if (isReloading == true && currentClip < clipSize && ammo != 0)
         {
             time += Time.deltaTime;
-            if (ammo - clipSize >= 0 && time >= reloadTime)
+            if (ammo - (clipSize - currentClip) >= 0 && time >= reloadTime)
             {
-                ammo -= clipSize;
+                ammo -= clipSize - currentClip;
                 currentClip = clipSize;
                 time = 0;
                 isReloading = false;
             }
             else if (ammo - clipSize < 0 && time >= reloadTime)
             {
-                currentClip = ammo;
+                currentClip += ammo;
                 ammo = 0;
                 time = 0;
                 isReloading = false;

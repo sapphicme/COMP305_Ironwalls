@@ -68,7 +68,7 @@ public class ShotgunController : MonoBehaviour
         else if (isReloading == false && currentClip == 0 && ammo != 0 && isFiring == true)
         {
             time += Time.deltaTime;
-            if (ammo - clipSize >= 0 && time >= reloadTime * clipSize)
+            if (ammo - (clipSize - currentClip) >= 0 && time >= reloadTime * clipSize)
             {
                 ammo -= clipSize - currentClip;
                 currentClip = clipSize;
@@ -77,7 +77,7 @@ public class ShotgunController : MonoBehaviour
             }
             else if (ammo - clipSize < 0 && time >= reloadTime * ammo)
             {
-                currentClip = ammo;
+                currentClip += ammo;
                 ammo = 0;
                 time = 0;
                 isFiring = false;
@@ -97,9 +97,9 @@ public class ShotgunController : MonoBehaviour
                 time = 0;
                 isReloading = false;
             }
-            else if (ammo - (clipSize - currentClip) < 0 && time >= reloadTime * ammo)
+            else if (ammo - clipSize < 0 && time >= reloadTime * ammo)
             {
-                currentClip = ammo;
+                currentClip += ammo;
                 ammo = 0;
                 time = 0;
                 isReloading = false;

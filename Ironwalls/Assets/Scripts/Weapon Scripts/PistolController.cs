@@ -71,6 +71,10 @@ public class PistolController : MonoBehaviour
                 isFiring = false;
             }
         }
+        else if (isReloading == true && currentClip == clipSize)
+        {
+            isReloading = false;
+        }
         else if (isReloading == true && currentClip < clipSize)
         {
             time += Time.deltaTime;
@@ -80,10 +84,6 @@ public class PistolController : MonoBehaviour
                 time = 0;
                 isReloading = false;
             }
-        }
-        else if (isReloading == true && currentClip == clipSize)
-        {
-            isReloading = false;
-        }
+        }        
     }
 }
