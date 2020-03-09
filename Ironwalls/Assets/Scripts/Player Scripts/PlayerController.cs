@@ -260,7 +260,13 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(transform.right * dash, ForceMode2D.Impulse);
             isCoolingDash = true;
         }
+
+        if (rb.angularVelocity != 0)
+        {
+            rb.angularVelocity = 0;
+        }
     }
+
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -287,11 +293,11 @@ public class PlayerController : MonoBehaviour
                 numberOfDetectdCrates = 0;
             }
 
-            moveSpeed = moveSpeed / numberOfCrates;            
-            dashDelayTime = -1;            
+            moveSpeed = moveSpeed / numberOfCrates;
+            dashDelayTime = -1;
 
             isHolding = true;
-            canDash = false;            
+            canDash = false;
             cratePosition.SetActive(true);
             HideWeapons();
             Destroy(col.gameObject);
