@@ -46,7 +46,7 @@ public class MachineGunController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (currentClip != 0 && isFiring == true)
+        if (isReloading == false && currentClip != 0 && isFiring == true)
         {
             if (isNextRound == true)
             {
@@ -63,7 +63,7 @@ public class MachineGunController : MonoBehaviour
                 time = 0;
             }
         }
-        else if (currentClip == 0 && ammo != 0 && isFiring == true)
+        else if (isReloading == false && currentClip == 0 && ammo != 0 && isFiring == false)
         {
             time += Time.deltaTime;
             if (ammo - clipSize >= 0 && time >= reloadTime)
@@ -77,7 +77,11 @@ public class MachineGunController : MonoBehaviour
                 currentClip = ammo;
                 ammo = 0;
                 time = 0;
-            }            
+            }
+        }
+        else if (isReloading == true && currentClip == clipSize || ammo == 0)
+        {
+            isReloading = false;
         }
         else if (isReloading == true && currentClip < clipSize && ammo != 0)
         {
@@ -87,13 +91,15 @@ public class MachineGunController : MonoBehaviour
                 ammo -= clipSize;
                 currentClip = clipSize;
                 time = 0;
+                isReloading = false;
             }
             else if (ammo - clipSize < 0 && time >= reloadTime)
             {
                 currentClip = ammo;
                 ammo = 0;
                 time = 0;
-            }            
+                isReloading = false;
+            }
         }
     }
 }

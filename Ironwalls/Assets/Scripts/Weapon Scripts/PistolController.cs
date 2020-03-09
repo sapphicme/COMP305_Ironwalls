@@ -50,34 +50,40 @@ public class PistolController : MonoBehaviour
             }
         }
 
-        if (currentClip != 0 && isFiring == true)
+        if (isReloading == false && currentClip != 0 && isFiring == true)
         {
             if (isNextRound == true)
-            {                
+            {
                 Destroy(Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation = gameObject.transform.parent.gameObject.transform.rotation * Quaternion.Euler(0, 0, Random.Range(-spread, spread))), range);
-                
+
                 currentClip--;
                 isNextRound = false;
                 isFiring = false;
             }
         }
-        else if (currentClip == 0 && isFiring == true)
+        else if (isReloading == false && currentClip == 0 && isFiring == true)
         {
             time += Time.deltaTime;
             if (time >= reloadTime)
-            {                
+            {
                 currentClip = clipSize;
                 time = 0;
-            }            
+                isFiring = false;
+            }
         }
         else if (isReloading == true && currentClip < clipSize)
         {
             time += Time.deltaTime;
             if (time >= reloadTime)
-            {                
+            {
                 currentClip = clipSize;
                 time = 0;
-            }            
+                isReloading = false;
+            }
+        }
+        else if (isReloading == true && currentClip == clipSize)
+        {
+            isReloading = false;
         }
     }
 }

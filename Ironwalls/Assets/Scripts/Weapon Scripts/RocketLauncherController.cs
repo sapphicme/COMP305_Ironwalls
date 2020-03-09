@@ -48,46 +48,54 @@ public class RocketLauncherController : MonoBehaviour
             }
         }
 
-        if (currentClip != 0 && isFiring == true)
+        if (isReloading == false && currentClip != 0 && isFiring == true)
         {
             if (isNextRound == true)
-            {               
+            {
                 Instantiate(rocket, rocketSpawn.position, rocketSpawn.rotation = gameObject.transform.parent.gameObject.transform.rotation);
                 currentClip--;
                 isNextRound = false;
                 isFiring = false;
             }
         }
-        else if (currentClip == 0 && ammo != 0 && isFiring == true)
+        else if (isReloading == false && currentClip == 0 && ammo != 0 && isFiring == true)
         {
             time += Time.deltaTime;
-            if (ammo - clipSize >= 0 && time >= reloadTime * clipSize)
+            if (ammo - (clipSize - currentClip) >= 0 && time >= reloadTime * (clipSize - currentClip))
             {
-                ammo -= clipSize;
+                ammo -= clipSize - currentClip;
                 currentClip = clipSize;
                 time = 0;
+                isFiring = false;
             }
-            else if (ammo - clipSize < 0 && time >= reloadTime * ammo)
+            else if (ammo - (clipSize - currentClip) < 0 && time >= reloadTime * ammo)
             {
                 currentClip = ammo;
                 ammo = 0;
                 time = 0;
+                isFiring = false;
             }
+        }
+        else if (isReloading == true && currentClip == clipSize || ammo == 0)
+        {
+            isReloading = false;
         }
         else if (isReloading == true && currentClip < clipSize && ammo != 0)
         {
             time += Time.deltaTime;
-            if (ammo - clipSize >= 0 && time >= reloadTime * clipSize)
+            if (ammo - (clipSize - currentClip) >= 0 && time >= reloadTime * (clipSize - currentClip))
             {
-                ammo -= clipSize;
+                ammo -= clipSize - currentClip;
                 currentClip = clipSize;
                 time = 0;
+                isReloading = false;
             }
-            else if (ammo - clipSize < 0 && time >= reloadTime * ammo)
+            else if (ammo - (clipSize - currentClip) < 0 && time >= reloadTime * ammo)
             {
                 currentClip = ammo;
                 ammo = 0;
                 time = 0;
+                isReloading = false;
             }
         }
     }
