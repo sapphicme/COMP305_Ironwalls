@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private bool isHolding;
 
     [SerializeField] private float moveSpeed = 8.0f;
+    [SerializeField] private GameObject dashTrail;
     [SerializeField] private float dash = 100.0f;
     [SerializeField] private bool canDash = true;
     [SerializeField] private bool isCoolingDash = false;
@@ -25,8 +26,14 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        rb = gameObject.GetComponent<Rigidbody2D>();               
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        dashTrail = gameObject.GetComponent<Transform>().Find("Player_Top").gameObject.GetComponent<Transform>().Find("Dash_Trail").gameObject;
     }  
+
+    void DisableDashTrail()
+    {
+        dashTrail.SetActive(false);
+    }
 
     // Update is called once per frame
     void Update()
@@ -82,7 +89,9 @@ public class PlayerController : MonoBehaviour
 
         if (canDash == true && isCoolingDash == false && dashW == true && Input.GetKeyDown(KeyCode.LeftShift))
         {
+            dashTrail.SetActive(true);
             rb.AddForce(transform.up * dash, ForceMode2D.Impulse);
+            Invoke("DisableDashTrail", 0.3f);
             isCoolingDash = true;
         }
 
@@ -98,7 +107,9 @@ public class PlayerController : MonoBehaviour
 
         if (canDash == true && isCoolingDash == false && dashA == true && Input.GetKeyDown(KeyCode.LeftShift))
         {
+            dashTrail.SetActive(true);
             rb.AddForce(-transform.right * dash, ForceMode2D.Impulse);
+            Invoke("DisableDashTrail", 0.3f);
             isCoolingDash = true;
         }
 
@@ -114,7 +125,9 @@ public class PlayerController : MonoBehaviour
 
         if (canDash == true && isCoolingDash == false && dashS == true && Input.GetKeyDown(KeyCode.LeftShift))
         {
+            dashTrail.SetActive(true);
             rb.AddForce(-transform.up * dash, ForceMode2D.Impulse);
+            Invoke("DisableDashTrail", 0.3f);
             isCoolingDash = true;
         }
 
@@ -130,7 +143,9 @@ public class PlayerController : MonoBehaviour
 
         if (canDash == true && isCoolingDash == false && dashD == true && Input.GetKeyDown(KeyCode.LeftShift))
         {
+            dashTrail.SetActive(true);
             rb.AddForce(transform.right * dash, ForceMode2D.Impulse);
+            Invoke("DisableDashTrail", 0.3f);
             isCoolingDash = true;
         }
 
