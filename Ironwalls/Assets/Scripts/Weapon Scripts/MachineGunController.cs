@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MachineGunController : MonoBehaviour
 {
+    [SerializeField] private int maxAmmo = 120;
     [SerializeField] private int ammo = 120;
     [SerializeField] private int currentClip = 30;
     [SerializeField] private int clipSize = 30;
@@ -23,6 +24,27 @@ public class MachineGunController : MonoBehaviour
     void Start()
     {        
         bulletSpawn = gameObject.GetComponent<Transform>().Find("Bullet_Spawn");
+    }
+
+    public bool AddAmmo()
+    {
+        if (ammo < maxAmmo)
+        {
+            if (ammo + clipSize <= maxAmmo)
+            {
+                ammo += clipSize;
+
+            }
+            else if (ammo + clipSize > maxAmmo)
+            {
+                ammo = maxAmmo;
+            }
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     // Update is called once per frame

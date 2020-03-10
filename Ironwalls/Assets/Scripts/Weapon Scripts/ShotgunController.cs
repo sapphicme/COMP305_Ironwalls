@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ShotgunController : MonoBehaviour
 {
+    [SerializeField] private int maxAmmo = 40;
     [SerializeField] private int ammo = 40;
     [SerializeField] private int currentClip = 8;
     [SerializeField] private int clipSize = 8;
@@ -26,8 +27,29 @@ public class ShotgunController : MonoBehaviour
         bulletSpawn = gameObject.GetComponent<Transform>().Find("Bullet_Spawn");
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool AddAmmo()
+    {
+        if (ammo < maxAmmo)
+        {
+            if (ammo + clipSize <= maxAmmo)
+            {
+                ammo += clipSize;
+
+            }
+            else if (ammo + clipSize > maxAmmo)
+            {
+                ammo = maxAmmo;
+            }
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+        // Update is called once per frame
+        void Update()
     {      
         if (isNextRound == true && Input.GetMouseButtonDown(0))
         {

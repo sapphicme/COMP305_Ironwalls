@@ -13,6 +13,10 @@ public class PlayerController2 : MonoBehaviour
     [SerializeField] private GameObject shotgun;
     [SerializeField] private GameObject rocketLauncher;
 
+    [SerializeField] private bool addedMachineGunAmmo = false;
+    [SerializeField] private bool addedShotgunAmmo = false;
+    [SerializeField] private bool addedRocketLauncherAmmo = false;
+
     [SerializeField] private GameObject crate;
     [SerializeField] private int numberOfCrates = 0;
     [SerializeField] private int numberOfDetectdCrates = 0;
@@ -198,10 +202,25 @@ public class PlayerController2 : MonoBehaviour
                 Destroy(col.gameObject);
             }
         }
+
+        if (col.tag == "Ammo Pack")
+        {
+            addedMachineGunAmmo = gameObject.GetComponent<Transform>().Find("Machine_Gun").gameObject.GetComponent<MachineGunController>().AddAmmo();
+            addedShotgunAmmo = gameObject.GetComponent<Transform>().Find("Shotgun").gameObject.GetComponent<ShotgunController>().AddAmmo();
+            addedRocketLauncherAmmo = gameObject.GetComponent<Transform>().Find("Rocket_Launcher").gameObject.GetComponent<RocketLauncherController>().AddAmmo();
+
+            if (addedMachineGunAmmo || addedShotgunAmmo || addedRocketLauncherAmmo)
+            {
+                addedMachineGunAmmo = false;
+                addedShotgunAmmo = false;
+                addedRocketLauncherAmmo = false;
+                Destroy(col.gameObject);
+            }
+        }
     }
 
 
-    void OnTriggerStay2D(Collider2D col)
+        void OnTriggerStay2D(Collider2D col)
     {
         if (Input.GetMouseButtonDown(1) && col.tag == "Crate")
         {

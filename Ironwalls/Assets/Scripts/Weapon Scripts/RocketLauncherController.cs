@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RocketLauncherController : MonoBehaviour
 {
+    [SerializeField] private int maxAmmo = 5;
     [SerializeField] private int ammo = 5;
     [SerializeField] private int currentClip = 1;
     [SerializeField] private int clipSize = 1;
@@ -20,6 +21,27 @@ public class RocketLauncherController : MonoBehaviour
     void Start()
     {
         rocketSpawn = gameObject.GetComponent<Transform>().Find("Rocket_Spawn");
+    }
+
+    public bool AddAmmo()
+    {
+        if (ammo < maxAmmo)
+        {
+            if (ammo + clipSize <= maxAmmo)
+            {
+                ammo += clipSize;
+
+            }
+            else if (ammo + clipSize > maxAmmo)
+            {
+                ammo = maxAmmo;
+            }
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     // Update is called once per frame
