@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerController2 : MonoBehaviour
 {
+    [SerializeField] private int currentHealth = 100;
+    [SerializeField] private int maxHealth = 100;
+    [SerializeField] private int addedHealth = 25;
     [SerializeField] private int weapon = 1;
     [SerializeField] private GameObject pistol;
     [SerializeField] private GameObject machineGun;
@@ -169,7 +172,6 @@ public class PlayerController2 : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
-
     void OnTriggerEnter2D(Collider2D col)
     {
         if (isHolding == false && col.tag == "Crate")
@@ -179,6 +181,22 @@ public class PlayerController2 : MonoBehaviour
         else if (isHolding == true)
         {
             numberOfDetectdCrates++;
+        }
+
+        if (col.tag == "Health Pack")
+        {
+            if (currentHealth < maxHealth)
+            {
+                if (currentHealth + addedHealth <= maxHealth)
+                {
+                    currentHealth += addedHealth;
+                }
+                else if (currentHealth + addedHealth > maxHealth)
+                {
+                    currentHealth = maxHealth;
+                }
+                Destroy(col.gameObject);
+            }
         }
     }
 

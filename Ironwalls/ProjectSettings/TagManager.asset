@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Wall
   - Crate
+  - Health Pack
   layers:
   - Default
   - TransparentFX
