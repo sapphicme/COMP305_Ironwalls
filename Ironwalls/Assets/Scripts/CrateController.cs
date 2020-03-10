@@ -13,6 +13,11 @@ public class CrateController : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
+    public void IsCollected()
+    {
+        GetComponent<BoxCollider2D>().enabled = false;
+    }
+
     void FixedUpdate()
     {
         if (isMoving == true)

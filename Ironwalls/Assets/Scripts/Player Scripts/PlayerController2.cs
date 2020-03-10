@@ -18,8 +18,9 @@ public class PlayerController2 : MonoBehaviour
     [SerializeField] private bool addedRocketLauncherAmmo = false;
 
     [SerializeField] private GameObject crate;
+    [SerializeField] private int cratesCollected = 0;
     [SerializeField] private int numberOfCrates = 0;
-    [SerializeField] private int numberOfDetectdCrates = 0;
+    [SerializeField] private int numberOfDetectdCrates = 0;    
     [SerializeField] private bool isHolding = false;
     [SerializeField] private float throwCrate = 10.0f;
 
@@ -73,6 +74,11 @@ public class PlayerController2 : MonoBehaviour
             shotgun.SetActive(false);
             rocketLauncher.SetActive(true);
         }
+    }
+
+    public void AddToCollection()
+    {
+        cratesCollected++;
     }
 
     public bool IsHolding()

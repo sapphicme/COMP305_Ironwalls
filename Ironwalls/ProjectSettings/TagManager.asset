@@ -9,6 +9,7 @@ TagManager:
   - Crate
   - Health Pack
   - Ammo Pack
+  - Crate Collection Area
   layers:
   - Default
   - TransparentFX
