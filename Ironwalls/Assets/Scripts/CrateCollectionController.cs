@@ -12,6 +12,7 @@ public class CrateCollectionController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         playerController2 = player.GetComponent<Transform>().Find("Player_Top").gameObject.GetComponent<PlayerController2>();
     }
+    
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -22,4 +23,6 @@ public class CrateCollectionController : MonoBehaviour
             playerController2.AddToCollection();
         }
     }
+
+    
 }
