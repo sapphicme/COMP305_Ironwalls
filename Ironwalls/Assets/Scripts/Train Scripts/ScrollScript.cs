@@ -7,11 +7,16 @@ public class ScrollScript : MonoBehaviour
 {
     // public variables
     public float speed;
+
     //gameobjects 
     public GameObject stopCol;
     public GameObject slowCol;
     public GameObject slowColTwo;
     public GameObject trainCol;
+    public GameObject platformPlayer;
+    public GameObject trainPlayer;
+    public GameObject mainCamera;
+
     //audio sources 
     public AudioSource audioSource;
     public AudioClip trainHorn;
@@ -24,6 +29,8 @@ public class ScrollScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        platformPlayer.gameObject.SetActive(false);
+        trainPlayer.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
@@ -40,6 +47,14 @@ public class ScrollScript : MonoBehaviour
             audioSource.clip = trainHorn;
             audioSource.Play();
             Debug.Log("Play sound");
+        }
+
+        if(speed == 0)
+        {
+            platformPlayer.gameObject.SetActive(true);
+            trainPlayer.gameObject.SetActive(false);
+            mainCamera.gameObject.SetActive(true);
+            audioSource.volume = 0.0f;
         }
 
 
@@ -74,7 +89,9 @@ public class ScrollScript : MonoBehaviour
             audioTwo.volume = 0.0f;
             Debug.Log("volume off");
             trainCol.SetActive(false);
-            SceneManager.LoadScene("Player_LevelOne");
+            
+
+            //SceneManager.LoadScene("Player_LevelOne");
         }
     }
 
