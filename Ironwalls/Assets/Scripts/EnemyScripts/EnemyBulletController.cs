@@ -25,7 +25,7 @@ public class EnemyBulletController : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            damagePlayer.maxHealth -= 2;
+            damagePlayer.maxHealth -= 5;
             Destroy(gameObject);
         }
         if (damagePlayer.maxHealth <= 0)

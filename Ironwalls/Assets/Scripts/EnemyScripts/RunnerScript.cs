@@ -16,6 +16,7 @@ public class RunnerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindWithTag("Player").transform;
         rb = this.GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }

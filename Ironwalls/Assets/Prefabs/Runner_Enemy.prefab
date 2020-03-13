@@ -153,6 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e417bd60aeb7a4e8c30eb477374aa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 564926997748628482, guid: 21724561506d65b47bf9e49afe9704c3, type: 3}
   moveSpeed: 5
   damagePlayer: {fileID: 0}
