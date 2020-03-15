@@ -17,6 +17,7 @@ public class RunnerScript : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
+        damagePlayer = GameObject.FindWithTag("Player").GetComponent<PlayerCondition>();
         rb = this.GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -45,8 +46,8 @@ public class RunnerScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            anim.SetBool("isContact", isAttacking);
             damagePlayer.maxHealth -= 2;
+            anim.SetBool("isContact", isAttacking);
         }
         if(damagePlayer.maxHealth <= 0)
         {

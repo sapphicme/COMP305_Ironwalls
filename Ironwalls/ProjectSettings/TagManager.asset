@@ -10,6 +10,7 @@ TagManager:
   - Health Pack
   - Ammo Pack
   - Crate Collection Area
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
