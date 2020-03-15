@@ -18,6 +18,7 @@ public class EnemySpawnController : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player").transform;
         rb = this.GetComponent<Rigidbody2D>();
+        Invoke("Spawn", 20);
     }
 
     // Update is called once per frame
