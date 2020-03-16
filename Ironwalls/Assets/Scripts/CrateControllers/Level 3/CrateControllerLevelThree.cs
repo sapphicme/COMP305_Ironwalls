@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class CrateController : MonoBehaviour
+public class CrateControllerLevelThree : MonoBehaviour
 {
     private Rigidbody2D rb;
     [SerializeField] private float time;
@@ -38,6 +39,12 @@ public class CrateController : MonoBehaviour
         else {
             isMoving = false;
             time = 1.0f;
+        }
+
+        //level 3
+        if (ScoreManager.initialScore == 6)
+        {
+            SceneManager.LoadScene("Win");
         }
     }
 
