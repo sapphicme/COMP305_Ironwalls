@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 0
   isMoving: 0
+  pointsToAdd: 1
 --- !u!212 &1150353289731501298
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class CrateCollectionController : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private PlayerController2 playerController2;
 
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -21,6 +22,7 @@ public class CrateCollectionController : MonoBehaviour
             Destroy(col.gameObject, 0.8f);
             col.gameObject.GetComponent<CrateController>().IsCollected();
             playerController2.AddToCollection();
+            
         }
     }
 

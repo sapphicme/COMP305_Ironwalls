@@ -8,6 +8,8 @@ public class CrateController : MonoBehaviour
     [SerializeField] private float time;
     [SerializeField] private bool isMoving;
 
+    public int pointsToAdd;
+
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
@@ -15,6 +17,8 @@ public class CrateController : MonoBehaviour
 
     public void IsCollected()
     {
+        Debug.Log("Crate Collected");
+        ScoreManager.AddPoints(pointsToAdd);
         GetComponent<BoxCollider2D>().enabled = false;
     }
 
