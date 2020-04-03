@@ -21,10 +21,12 @@ public class PlayerController : MonoBehaviour
     private float time = 0.0f;
     private GameObject cratePosition;
     private Rigidbody2D rb;
-    private Camera cam;    
+    private Camera cam;
+    
 
     void Start()
     {
+        
         cam = Camera.main;
         rb = gameObject.GetComponent<Rigidbody2D>();
         dashTrail = gameObject.GetComponent<Transform>().Find("Player_Top").gameObject.GetComponent<Transform>().Find("Dash_Trail").gameObject;
@@ -174,4 +176,5 @@ public class PlayerController : MonoBehaviour
             canDash = true;
         }        
     }
+    
 }
