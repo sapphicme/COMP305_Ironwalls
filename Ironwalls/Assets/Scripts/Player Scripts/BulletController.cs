@@ -7,6 +7,7 @@ public class BulletController : MonoBehaviour
 
     public float speed = 10f;
     public Rigidbody2D body;
+    public BossScript boss;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,16 @@ public class BulletController : MonoBehaviour
         }
         if(other.tag == "Wall")
         {
+            Destroy(gameObject);
+        }
+        if (other.tag == "Boss")
+        {
+            boss.health -= 5;
+            Destroy(gameObject);
+        }
+        if (other.tag == "Boss" && boss.health <= 0)
+        {
+            Destroy(other.gameObject);
             Destroy(gameObject);
         }
     }

@@ -11,6 +11,7 @@ public class RocketController : MonoBehaviour
     private GameObject rocketTrail;
     private GameObject explosion;
     private bool isStop = false;
+    public BossScript boss;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class RocketController : MonoBehaviour
         rocketImage = gameObject.GetComponent<Transform>().Find("Rocket_Image").gameObject;
         rocketTrail = gameObject.GetComponent<Transform>().Find("Rocket_Trail").gameObject;
         explosion = gameObject.GetComponent<Transform>().Find("Explosion").gameObject;
+        boss = GameObject.FindWithTag("Boss").GetComponent<BossScript>();
     }
 
     // Update is called once per frame
@@ -56,6 +58,16 @@ public class RocketController : MonoBehaviour
             isStop = true;
             Destroy(gameObject, 1.0f);
             explosion.SetActive(true);
+        }
+        if (other.tag == "Boss")
+        {
+            boss.health -= 50;
+            Destroy(gameObject);
+        }
+        if (other.tag == "Boss" && boss.health <= 0)
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);
         }
     }
 }

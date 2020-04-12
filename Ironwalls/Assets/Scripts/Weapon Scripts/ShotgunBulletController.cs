@@ -6,11 +6,13 @@ public class ShotgunBulletController : MonoBehaviour
 {
     [SerializeField] private float speed = 20f;
     private Rigidbody2D rbody;
+    public BossScript boss;
 
     // Start is called before the first frame update
     void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
+        boss = GameObject.FindWithTag("Boss").GetComponent<BossScript>();
     }
 
     // Update is called once per frame
@@ -33,6 +35,16 @@ public class ShotgunBulletController : MonoBehaviour
         }
         if (other.tag == "Wall")
         {
+            Destroy(gameObject);
+        }
+        if (other.tag == "Boss")
+        {
+            boss.health -= 2;
+            Destroy(gameObject);
+        }
+        if (other.tag == "Boss" && boss.health <= 0)
+        {
+            Destroy(other.gameObject);
             Destroy(gameObject);
         }
     }

@@ -36,7 +36,7 @@ public class EnemyBulletController : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        if(other.gameObject.tag == "EnemyBullet")
+        if (other.gameObject.tag == "EnemyBullet")
         {
             Destroy(gameObject);
         }

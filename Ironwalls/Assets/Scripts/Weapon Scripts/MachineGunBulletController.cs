@@ -6,11 +6,15 @@ public class MachineGunBulletController : MonoBehaviour
 {
     [SerializeField] private float speed = 20f;
     private Rigidbody2D rbody;
+    public BossScript boss;
+    public RangerScript ranger;
 
     // Start is called before the first frame update
     void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
+        boss = GameObject.FindWithTag("Boss").GetComponent<BossScript>();
+        ranger = GameObject.FindWithTag("Enemy").GetComponent<RangerScript>();
     }
 
     // Update is called once per frame
@@ -26,13 +30,23 @@ public class MachineGunBulletController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Enemy")
+        if (other.gameObject.tag == "Enemy")
         {
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
-        if (other.tag == "Wall")
+        if (other.gameObject.tag == "Wall")
         {
+            Destroy(gameObject);
+        }
+        if (other.gameObject.tag == "Boss")
+        {
+            boss.health -= 10;
+            Destroy(gameObject);
+        }
+        if (other.gameObject.tag == "Boss" && boss.health <= 0)
+        {
+            Destroy(other.gameObject);
             Destroy(gameObject);
         }
     }

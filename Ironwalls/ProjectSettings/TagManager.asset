@@ -11,6 +11,7 @@ TagManager:
   - Ammo Pack
   - Crate Collection Area
   - EnemyBullet
+  - Boss
   layers:
   - Default
   - TransparentFX

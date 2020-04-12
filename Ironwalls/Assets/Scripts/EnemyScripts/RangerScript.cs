@@ -35,6 +35,7 @@ public class RangerScript : MonoBehaviour
         if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            anim.SetBool("isShooting", false);
         }
         else if(Vector2.Distance(transform.position, player.position)> stoppingDistance && Vector2.Distance(transform.position, player.position) > retreatDistance)
         {
@@ -43,6 +44,7 @@ public class RangerScript : MonoBehaviour
         else if(Vector2.Distance(transform.position, player.position) < retreatDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+            anim.SetBool("isShooting", false);
         }
 
         if(currentShot == 0)
